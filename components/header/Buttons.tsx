@@ -84,15 +84,7 @@ function CartButton() {
   );
 }
 
-function Buttons({ variant }: { variant: "cart" | "search" | "menu" }) {
-  if (variant === "cart") {
-    return <CartButton />;
-  }
-
-  if (variant === "search") {
-    return <SearchButton />;
-  }
-
+function Buttons({ variant }: { variant: "menu" }) {
   if (variant === "menu") {
     return <MenuButton />;
   }
