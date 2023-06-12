@@ -82,30 +82,30 @@
               "$live/sections/PageInclude.tsx",
               "$live/sections/Slot.tsx",
               "$live/sections/UseSlot.tsx",
-              "deco-sites/fashion/sections/Category/CategoryBanner.tsx",
-              "deco-sites/fashion/sections/Category/CategoryList.tsx",
-              "deco-sites/fashion/sections/Content/Benefits.tsx",
-              "deco-sites/fashion/sections/Content/Faq.tsx",
-              "deco-sites/fashion/sections/Content/Logos.tsx",
-              "deco-sites/fashion/sections/Content/Testimonials.tsx",
-              "deco-sites/fashion/sections/DesignSystem/DesignSystem.tsx",
-              "deco-sites/fashion/sections/Footer/Footer.tsx",
-              "deco-sites/fashion/sections/Header/Header.tsx",
-              "deco-sites/fashion/sections/Images/BannerGrid.tsx",
-              "deco-sites/fashion/sections/Images/Carousel.tsx",
-              "deco-sites/fashion/sections/Images/ImageGallery.tsx",
-              "deco-sites/fashion/sections/Images/ShoppableBanner.tsx",
-              "deco-sites/fashion/sections/Links/LinkTree.tsx",
-              "deco-sites/fashion/sections/Links/Shortcuts.tsx",
-              "deco-sites/fashion/sections/Miscellaneous/CampaignTimer.tsx",
-              "deco-sites/fashion/sections/Miscellaneous/CookieConsent.tsx",
-              "deco-sites/fashion/sections/Newsletter/Newsletter.tsx",
-              "deco-sites/fashion/sections/Product/ProductDetails.tsx",
-              "deco-sites/fashion/sections/Product/ProductShelf.tsx",
-              "deco-sites/fashion/sections/Product/SearchResult.tsx",
-              "deco-sites/fashion/sections/Product/Wishlist.tsx",
-              "deco-sites/fashion/sections/Social/InstagramPosts.tsx",
-              "deco-sites/fashion/sections/Social/WhatsApp.tsx",
+              "deco-sites/dito/sections/Category/CategoryBanner.tsx",
+              "deco-sites/dito/sections/Category/CategoryList.tsx",
+              "deco-sites/dito/sections/Content/Benefits.tsx",
+              "deco-sites/dito/sections/Content/Faq.tsx",
+              "deco-sites/dito/sections/Content/Logos.tsx",
+              "deco-sites/dito/sections/Content/Testimonials.tsx",
+              "deco-sites/dito/sections/DesignSystem/DesignSystem.tsx",
+              "deco-sites/dito/sections/Footer/Footer.tsx",
+              "deco-sites/dito/sections/Header/Header.tsx",
+              "deco-sites/dito/sections/Images/BannerGrid.tsx",
+              "deco-sites/dito/sections/Images/Carousel.tsx",
+              "deco-sites/dito/sections/Images/ImageGallery.tsx",
+              "deco-sites/dito/sections/Images/ShoppableBanner.tsx",
+              "deco-sites/dito/sections/Links/LinkTree.tsx",
+              "deco-sites/dito/sections/Links/Shortcuts.tsx",
+              "deco-sites/dito/sections/Miscellaneous/CampaignTimer.tsx",
+              "deco-sites/dito/sections/Miscellaneous/CookieConsent.tsx",
+              "deco-sites/dito/sections/Newsletter/Newsletter.tsx",
+              "deco-sites/dito/sections/Product/ProductDetails.tsx",
+              "deco-sites/dito/sections/Product/ProductShelf.tsx",
+              "deco-sites/dito/sections/Product/SearchResult.tsx",
+              "deco-sites/dito/sections/Product/Wishlist.tsx",
+              "deco-sites/dito/sections/Social/InstagramPosts.tsx",
+              "deco-sites/dito/sections/Social/WhatsApp.tsx",
               "deco-sites/std/sections/Analytics.tsx",
               "deco-sites/std/sections/configButterCMS.global.tsx",
               "deco-sites/std/sections/configOCC.global.tsx",
@@ -6882,7 +6882,7 @@
       ],
       "title": "SKU"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvdWkvU2hpcHBpbmdTaW11bGF0aW9uLnRzeA==@Props": {
+    "ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvdWkvU2hpcHBpbmdTaW11bGF0aW9uLnRzeA==@Props": {
       "type": "object",
       "properties": {
         "items": {
@@ -6896,7 +6896,7 @@
       "required": [
         "items"
       ],
-      "title": "deco-sites/fashion/components/ui/ShippingSimulation.tsx@Props"
+      "title": "deco-sites/dito/components/ui/ShippingSimulation.tsx@Props"
     },
     "L1VzZXJzL2x1Y2lzL2RlY28vbGl2ZS9oYW5kbGVycy9kZXZQYWdlLnRz@DevConfig": {
       "type": "object",
@@ -7259,7 +7259,7 @@
       "format": "image-uri",
       "title": "Image"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvdWkvQmFubmVyUExQLnRzeA==@Banner": {
+    "ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvdWkvQmFubmVyUExQLnRzeA==@Banner": {
       "type": "object",
       "properties": {
         "matcher": {
@@ -7315,14 +7315,14 @@
       ],
       "title": "Banner"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvdWkvQmFubmVyUExQLnRzeA==@Banner[]": {
+    "ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvdWkvQmFubmVyUExQLnRzeA==@Banner[]": {
       "type": "array",
       "items": {
-        "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvdWkvQmFubmVyUExQLnRzeA==@Banner"
+        "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvdWkvQmFubmVyUExQLnRzeA==@Banner"
       },
       "title": "Banner[]"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvdWkvQmFubmVyUExQLnRzeA==@Props": {
+    "ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvdWkvQmFubmVyUExQLnRzeA==@Props": {
       "type": "object",
       "properties": {
         "page": {
@@ -7330,14 +7330,14 @@
           "title": "Page"
         },
         "banners": {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvdWkvQmFubmVyUExQLnRzeA==@Banner[]",
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvdWkvQmFubmVyUExQLnRzeA==@Banner[]",
           "title": "Banners"
         }
       },
       "required": [],
-      "title": "deco-sites/fashion/components/ui/BannerPLP.tsx@Props"
+      "title": "deco-sites/dito/components/ui/BannerPLP.tsx@Props"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0NhdGVnb3J5L0NhdGVnb3J5TGlzdC50c3g=@Category": {
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NhdGVnb3J5L0NhdGVnb3J5TGlzdC50c3g=@Category": {
       "type": "object",
       "properties": {
         "tag": {
@@ -7382,14 +7382,14 @@
       ],
       "title": "Category"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0NhdGVnb3J5L0NhdGVnb3J5TGlzdC50c3g=@Category[]": {
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NhdGVnb3J5L0NhdGVnb3J5TGlzdC50c3g=@Category[]": {
       "type": "array",
       "items": {
-        "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0NhdGVnb3J5L0NhdGVnb3J5TGlzdC50c3g=@Category"
+        "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NhdGVnb3J5L0NhdGVnb3J5TGlzdC50c3g=@Category"
       },
       "title": "Category[]"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0NhdGVnb3J5L0NhdGVnb3J5TGlzdC50c3g=@Props": {
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NhdGVnb3J5L0NhdGVnb3J5TGlzdC50c3g=@Props": {
       "type": "object",
       "properties": {
         "header": {
@@ -7414,7 +7414,7 @@
           "title": "Header"
         },
         "list": {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0NhdGVnb3J5L0NhdGVnb3J5TGlzdC50c3g=@Category[]",
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NhdGVnb3J5L0NhdGVnb3J5TGlzdC50c3g=@Category[]",
           "title": "List"
         },
         "layout": {
@@ -7475,9 +7475,9 @@
         }
       },
       "required": [],
-      "title": "deco-sites/fashion/sections/Category/CategoryList.tsx@Props"
+      "title": "deco-sites/dito/sections/Category/CategoryList.tsx@Props"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0NvbnRlbnQvQmVuZWZpdHMudHN4@Props": {
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvQmVuZWZpdHMudHN4@Props": {
       "type": "object",
       "properties": {
         "title": {
@@ -7711,9 +7711,9 @@
         }
       },
       "required": [],
-      "title": "deco-sites/fashion/sections/Content/Benefits.tsx@Props"
+      "title": "deco-sites/dito/sections/Content/Benefits.tsx@Props"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0NvbnRlbnQvRmFxLnRzeA==@Question": {
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvRmFxLnRzeA==@Question": {
       "type": "object",
       "properties": {
         "question": {
@@ -7732,14 +7732,14 @@
       ],
       "title": "Question"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0NvbnRlbnQvRmFxLnRzeA==@Question[]": {
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvRmFxLnRzeA==@Question[]": {
       "type": "array",
       "items": {
-        "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0NvbnRlbnQvRmFxLnRzeA==@Question"
+        "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvRmFxLnRzeA==@Question"
       },
       "title": "Question[]"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0NvbnRlbnQvRmFxLnRzeA==@Contact": {
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvRmFxLnRzeA==@Contact": {
       "type": "object",
       "properties": {
         "title": {
@@ -7779,7 +7779,7 @@
       "required": [],
       "title": "Contact"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0NvbnRlbnQvRmFxLnRzeA==@Props": {
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvRmFxLnRzeA==@Props": {
       "type": "object",
       "properties": {
         "title": {
@@ -7797,11 +7797,11 @@
           "title": "Description"
         },
         "questions": {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0NvbnRlbnQvRmFxLnRzeA==@Question[]",
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvRmFxLnRzeA==@Question[]",
           "title": "Questions"
         },
         "contact": {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0NvbnRlbnQvRmFxLnRzeA==@Contact",
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvRmFxLnRzeA==@Contact",
           "title": "Contact"
         },
         "layout": {
@@ -7845,9 +7845,9 @@
         }
       },
       "required": [],
-      "title": "deco-sites/fashion/sections/Content/Faq.tsx@Props"
+      "title": "deco-sites/dito/sections/Content/Faq.tsx@Props"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0NvbnRlbnQvTG9nb3MudHN4@Image": {
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvTG9nb3MudHN4@Image": {
       "type": "object",
       "properties": {
         "image": {
@@ -7865,14 +7865,14 @@
       ],
       "title": "Image"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0NvbnRlbnQvTG9nb3MudHN4@Image[]": {
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvTG9nb3MudHN4@Image[]": {
       "type": "array",
       "items": {
-        "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0NvbnRlbnQvTG9nb3MudHN4@Image"
+        "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvTG9nb3MudHN4@Image"
       },
       "title": "Image[]"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0NvbnRlbnQvTG9nb3MudHN4@Props": {
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvTG9nb3MudHN4@Props": {
       "type": "object",
       "properties": {
         "title": {
@@ -7890,7 +7890,7 @@
           "title": "Description"
         },
         "images": {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0NvbnRlbnQvTG9nb3MudHN4@Image[]",
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvTG9nb3MudHN4@Image[]",
           "title": "Images"
         },
         "layout": {
@@ -7916,9 +7916,9 @@
         }
       },
       "required": [],
-      "title": "deco-sites/fashion/sections/Content/Logos.tsx@Props"
+      "title": "deco-sites/dito/sections/Content/Logos.tsx@Props"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0NvbnRlbnQvVGVzdGltb25pYWxzLnRzeA==@Testimonial": {
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvVGVzdGltb25pYWxzLnRzeA==@Testimonial": {
       "type": "object",
       "properties": {
         "text": {
@@ -7982,14 +7982,14 @@
       "required": [],
       "title": "Testimonial"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0NvbnRlbnQvVGVzdGltb25pYWxzLnRzeA==@Testimonial[]": {
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvVGVzdGltb25pYWxzLnRzeA==@Testimonial[]": {
       "type": "array",
       "items": {
-        "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0NvbnRlbnQvVGVzdGltb25pYWxzLnRzeA==@Testimonial"
+        "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvVGVzdGltb25pYWxzLnRzeA==@Testimonial"
       },
       "title": "Testimonial[]"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0NvbnRlbnQvVGVzdGltb25pYWxzLnRzeA==@Props": {
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvVGVzdGltb25pYWxzLnRzeA==@Props": {
       "type": "object",
       "properties": {
         "title": {
@@ -8007,7 +8007,7 @@
           "title": "Description"
         },
         "testimonials": {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0NvbnRlbnQvVGVzdGltb25pYWxzLnRzeA==@Testimonial[]",
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvVGVzdGltb25pYWxzLnRzeA==@Testimonial[]",
           "title": "Testimonials"
         },
         "layout": {
@@ -8047,9 +8047,9 @@
         }
       },
       "required": [],
-      "title": "deco-sites/fashion/sections/Content/Testimonials.tsx@Props"
+      "title": "deco-sites/dito/sections/Content/Testimonials.tsx@Props"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0Rlc2lnblN5c3RlbS9EZXNpZ25TeXN0ZW0udHN4@Colors": {
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0Rlc2lnblN5c3RlbS9EZXNpZ25TeXN0ZW0udHN4@Colors": {
       "type": "object",
       "properties": {
         "primary": {
@@ -8120,7 +8120,7 @@
       ],
       "title": "Colors"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0Rlc2lnblN5c3RlbS9EZXNpZ25TeXN0ZW0udHN4@OptionalColors": {
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0Rlc2lnblN5c3RlbS9EZXNpZ25TeXN0ZW0udHN4@OptionalColors": {
       "type": "object",
       "properties": {
         "primary-focus": {
@@ -8262,16 +8262,16 @@
       "required": [],
       "title": "OptionalColors"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0Rlc2lnblN5c3RlbS9EZXNpZ25TeXN0ZW0udHN4@Colors&cdfcdee42d3581a7cccd8912b37f01e8": {
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0Rlc2lnblN5c3RlbS9EZXNpZ25TeXN0ZW0udHN4@Colors&cdfcdee42d3581a7cccd8912b37f01e8": {
       "allOf": [
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0Rlc2lnblN5c3RlbS9EZXNpZ25TeXN0ZW0udHN4@Colors"
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0Rlc2lnblN5c3RlbS9EZXNpZ25TeXN0ZW0udHN4@Colors"
         },
         {
           "type": "object",
           "properties": {
             "optional": {
-              "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0Rlc2lnblN5c3RlbS9EZXNpZ25TeXN0ZW0udHN4@OptionalColors",
+              "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0Rlc2lnblN5c3RlbS9EZXNpZ25TeXN0ZW0udHN4@OptionalColors",
               "title": "Optional"
             }
           },
@@ -8280,7 +8280,7 @@
       ],
       "title": "Colors&cdfcdee42d3581a7cccd8912b37f01e8"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0Rlc2lnblN5c3RlbS9EZXNpZ25TeXN0ZW0udHN4@Miscellaneous": {
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0Rlc2lnblN5c3RlbS9EZXNpZ25TeXN0ZW0udHN4@Miscellaneous": {
       "type": "object",
       "properties": {
         "--rounded-box": {
@@ -8358,7 +8358,7 @@
       ],
       "title": "Miscellaneous"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0Rlc2lnblN5c3RlbS9EZXNpZ25TeXN0ZW0udHN4@Font": {
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0Rlc2lnblN5c3RlbS9EZXNpZ25TeXN0ZW0udHN4@Font": {
       "type": "object",
       "properties": {
         "fontFamily": {
@@ -8377,26 +8377,26 @@
       ],
       "title": "Font"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0Rlc2lnblN5c3RlbS9EZXNpZ25TeXN0ZW0udHN4@Props": {
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0Rlc2lnblN5c3RlbS9EZXNpZ25TeXN0ZW0udHN4@Props": {
       "type": "object",
       "properties": {
         "colors": {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0Rlc2lnblN5c3RlbS9EZXNpZ25TeXN0ZW0udHN4@Colors&cdfcdee42d3581a7cccd8912b37f01e8",
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0Rlc2lnblN5c3RlbS9EZXNpZ25TeXN0ZW0udHN4@Colors&cdfcdee42d3581a7cccd8912b37f01e8",
           "title": "Colors"
         },
         "miscellaneous": {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0Rlc2lnblN5c3RlbS9EZXNpZ25TeXN0ZW0udHN4@Miscellaneous",
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0Rlc2lnblN5c3RlbS9EZXNpZ25TeXN0ZW0udHN4@Miscellaneous",
           "title": "Miscellaneous"
         },
         "fonts": {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0Rlc2lnblN5c3RlbS9EZXNpZ25TeXN0ZW0udHN4@Font",
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0Rlc2lnblN5c3RlbS9EZXNpZ25TeXN0ZW0udHN4@Font",
           "title": "Fonts"
         }
       },
       "required": [],
-      "title": "deco-sites/fashion/sections/DesignSystem/DesignSystem.tsx@Props"
+      "title": "deco-sites/dito/sections/DesignSystem/DesignSystem.tsx@Props"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvZm9vdGVyL0Zvb3Rlci50c3g=@StringItem": {
+    "ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvZm9vdGVyL0Zvb3Rlci50c3g=@StringItem": {
       "type": "object",
       "properties": {
         "label": {
@@ -8414,7 +8414,7 @@
       ],
       "title": "StringItem"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvZm9vdGVyL0Zvb3Rlci50c3g=@IconItem": {
+    "ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvZm9vdGVyL0Zvb3Rlci50c3g=@IconItem": {
       "type": "object",
       "properties": {
         "icon": {
@@ -8577,25 +8577,25 @@
       ],
       "title": "IconItem"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvZm9vdGVyL0Zvb3Rlci50c3g=@IconItem|StringItem": {
+    "ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvZm9vdGVyL0Zvb3Rlci50c3g=@IconItem|StringItem": {
       "anyOf": [
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvZm9vdGVyL0Zvb3Rlci50c3g=@StringItem"
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvZm9vdGVyL0Zvb3Rlci50c3g=@StringItem"
         },
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvZm9vdGVyL0Zvb3Rlci50c3g=@IconItem"
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvZm9vdGVyL0Zvb3Rlci50c3g=@IconItem"
         }
       ],
       "title": "IconItem|StringItem"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvZm9vdGVyL0Zvb3Rlci50c3g=@IconItem|StringItem[]": {
+    "ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvZm9vdGVyL0Zvb3Rlci50c3g=@IconItem|StringItem[]": {
       "type": "array",
       "items": {
-        "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvZm9vdGVyL0Zvb3Rlci50c3g=@IconItem|StringItem"
+        "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvZm9vdGVyL0Zvb3Rlci50c3g=@IconItem|StringItem"
       },
       "title": "IconItem|StringItem[]"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvZm9vdGVyL0Zvb3Rlci50c3g=@Section": {
+    "ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvZm9vdGVyL0Zvb3Rlci50c3g=@Section": {
       "type": "object",
       "properties": {
         "label": {
@@ -8603,7 +8603,7 @@
           "title": "Label"
         },
         "children": {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvZm9vdGVyL0Zvb3Rlci50c3g=@IconItem|StringItem[]",
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvZm9vdGVyL0Zvb3Rlci50c3g=@IconItem|StringItem[]",
           "title": "Children"
         }
       },
@@ -8613,25 +8613,25 @@
       ],
       "title": "Section"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvZm9vdGVyL0Zvb3Rlci50c3g=@Section[]": {
+    "ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvZm9vdGVyL0Zvb3Rlci50c3g=@Section[]": {
       "type": "array",
       "items": {
-        "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvZm9vdGVyL0Zvb3Rlci50c3g=@Section"
+        "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvZm9vdGVyL0Zvb3Rlci50c3g=@Section"
       },
       "title": "Section[]"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvZm9vdGVyL0Zvb3Rlci50c3g=@Props": {
+    "ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvZm9vdGVyL0Zvb3Rlci50c3g=@Props": {
       "type": "object",
       "properties": {
         "sections": {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvZm9vdGVyL0Zvb3Rlci50c3g=@Section[]",
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvZm9vdGVyL0Zvb3Rlci50c3g=@Section[]",
           "title": "Sections"
         }
       },
       "required": [],
-      "title": "deco-sites/fashion/components/footer/Footer.tsx@Props"
+      "title": "deco-sites/dito/components/footer/Footer.tsx@Props"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvc2VhcmNoL1NlYXJjaGJhci50c3g=@EditableProps": {
+    "ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvc2VhcmNoL1NlYXJjaGJhci50c3g=@EditableProps": {
       "type": "object",
       "properties": {
         "placeholder": {
@@ -8672,7 +8672,7 @@
       "required": [],
       "title": "EditableProps"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvaGVhZGVyL0hlYWRlci50c3g=@NavItem": {
+    "ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvaGVhZGVyL0hlYWRlci50c3g=@NavItem": {
       "type": "object",
       "properties": {
         "label": {
@@ -8750,14 +8750,14 @@
       ],
       "title": "NavItem"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvaGVhZGVyL0hlYWRlci50c3g=@NavItem[]": {
+    "ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvaGVhZGVyL0hlYWRlci50c3g=@NavItem[]": {
       "type": "array",
       "items": {
-        "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvaGVhZGVyL0hlYWRlci50c3g=@NavItem"
+        "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvaGVhZGVyL0hlYWRlci50c3g=@NavItem"
       },
       "title": "NavItem[]"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvaGVhZGVyL0hlYWRlci50c3g=@Props": {
+    "ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvaGVhZGVyL0hlYWRlci50c3g=@Props": {
       "type": "object",
       "properties": {
         "alerts": {
@@ -8768,11 +8768,11 @@
           "title": "Alerts"
         },
         "searchbar": {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvc2VhcmNoL1NlYXJjaGJhci50c3g=@EditableProps",
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvc2VhcmNoL1NlYXJjaGJhci50c3g=@EditableProps",
           "title": "Search Bar"
         },
         "navItems": {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvaGVhZGVyL0hlYWRlci50c3g=@NavItem[]",
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvaGVhZGVyL0hlYWRlci50c3g=@NavItem[]",
           "title": "Navigation items",
           "description": "Navigation items used both on mobile and desktop menus"
         },
@@ -8789,14 +8789,14 @@
       "required": [
         "alerts"
       ],
-      "title": "deco-sites/fashion/components/header/Header.tsx@Props"
+      "title": "deco-sites/dito/components/header/Header.tsx@Props"
     },
     "L1VzZXJzL2x1Y2lzL2RlY28vc3RkL2NvbXBvbmVudHMvdHlwZXMudHM=@Image": {
       "type": "string",
       "format": "image-uri",
       "title": "Image"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvdWkvQmFubmVyR3JpZC50c3g=@Banner": {
+    "ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvdWkvQmFubmVyR3JpZC50c3g=@Banner": {
       "type": "object",
       "properties": {
         "srcMobile": {
@@ -8825,14 +8825,14 @@
       ],
       "title": "Banner"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvdWkvQmFubmVyR3JpZC50c3g=@Banner[]": {
+    "ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvdWkvQmFubmVyR3JpZC50c3g=@Banner[]": {
       "type": "array",
       "items": {
-        "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvdWkvQmFubmVyR3JpZC50c3g=@Banner"
+        "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvdWkvQmFubmVyR3JpZC50c3g=@Banner"
       },
       "title": "Banner[]"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvdWkvQmFubmVyR3JpZC50c3g=@Props": {
+    "ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvdWkvQmFubmVyR3JpZC50c3g=@Props": {
       "type": "object",
       "properties": {
         "title": {
@@ -8975,7 +8975,7 @@
           "description": "Item's border radius in px"
         },
         "banners": {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvdWkvQmFubmVyR3JpZC50c3g=@Banner[]",
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvdWkvQmFubmVyR3JpZC50c3g=@Banner[]",
           "title": "Banners"
         }
       },
@@ -8984,9 +8984,9 @@
         "borderRadius",
         "banners"
       ],
-      "title": "deco-sites/fashion/components/ui/BannerGrid.tsx@Props"
+      "title": "deco-sites/dito/components/ui/BannerGrid.tsx@Props"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvdWkvQmFubmVyQ2Fyb3VzZWwudHN4@Banner": {
+    "ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvdWkvQmFubmVyQ2Fyb3VzZWwudHN4@Banner": {
       "type": "object",
       "properties": {
         "desktop": {
@@ -9040,18 +9040,18 @@
       ],
       "title": "Banner"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvdWkvQmFubmVyQ2Fyb3VzZWwudHN4@Banner[]": {
+    "ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvdWkvQmFubmVyQ2Fyb3VzZWwudHN4@Banner[]": {
       "type": "array",
       "items": {
-        "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvdWkvQmFubmVyQ2Fyb3VzZWwudHN4@Banner"
+        "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvdWkvQmFubmVyQ2Fyb3VzZWwudHN4@Banner"
       },
       "title": "Banner[]"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvdWkvQmFubmVyQ2Fyb3VzZWwudHN4@Props": {
+    "ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvdWkvQmFubmVyQ2Fyb3VzZWwudHN4@Props": {
       "type": "object",
       "properties": {
         "images": {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvdWkvQmFubmVyQ2Fyb3VzZWwudHN4@Banner[]",
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvdWkvQmFubmVyQ2Fyb3VzZWwudHN4@Banner[]",
           "title": "Images"
         },
         "preload": {
@@ -9072,9 +9072,9 @@
         }
       },
       "required": [],
-      "title": "deco-sites/fashion/components/ui/BannerCarousel.tsx@Props"
+      "title": "deco-sites/dito/components/ui/BannerCarousel.tsx@Props"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0ltYWdlcy9JbWFnZUdhbGxlcnkudHN4@Banner": {
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0ltYWdlcy9JbWFnZUdhbGxlcnkudHN4@Banner": {
       "type": "object",
       "properties": {
         "srcMobile": {
@@ -9103,14 +9103,14 @@
       ],
       "title": "Banner"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0ltYWdlcy9JbWFnZUdhbGxlcnkudHN4@Banner[]": {
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0ltYWdlcy9JbWFnZUdhbGxlcnkudHN4@Banner[]": {
       "type": "array",
       "items": {
-        "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0ltYWdlcy9JbWFnZUdhbGxlcnkudHN4@Banner"
+        "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0ltYWdlcy9JbWFnZUdhbGxlcnkudHN4@Banner"
       },
       "title": "Banner[]"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0ltYWdlcy9JbWFnZUdhbGxlcnkudHN4@Props": {
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0ltYWdlcy9JbWFnZUdhbGxlcnkudHN4@Props": {
       "type": "object",
       "properties": {
         "title": {
@@ -9128,7 +9128,7 @@
           "title": "Description"
         },
         "banners": {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0ltYWdlcy9JbWFnZUdhbGxlcnkudHN4@Banner[]",
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0ltYWdlcy9JbWFnZUdhbGxlcnkudHN4@Banner[]",
           "maxItems": 4,
           "minItems": 4,
           "title": "Banners"
@@ -9267,9 +9267,9 @@
         }
       },
       "required": [],
-      "title": "deco-sites/fashion/sections/Images/ImageGallery.tsx@Props"
+      "title": "deco-sites/dito/sections/Images/ImageGallery.tsx@Props"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0ltYWdlcy9TaG9wcGFibGVCYW5uZXIudHN4@Pin": {
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0ltYWdlcy9TaG9wcGFibGVCYW5uZXIudHN4@Pin": {
       "type": "object",
       "properties": {
         "mobile": {
@@ -9324,14 +9324,14 @@
       ],
       "title": "Pin"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0ltYWdlcy9TaG9wcGFibGVCYW5uZXIudHN4@Pin[]": {
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0ltYWdlcy9TaG9wcGFibGVCYW5uZXIudHN4@Pin[]": {
       "type": "array",
       "items": {
-        "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0ltYWdlcy9TaG9wcGFibGVCYW5uZXIudHN4@Pin"
+        "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0ltYWdlcy9TaG9wcGFibGVCYW5uZXIudHN4@Pin"
       },
       "title": "Pin[]"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0ltYWdlcy9TaG9wcGFibGVCYW5uZXIudHN4@Props": {
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0ltYWdlcy9TaG9wcGFibGVCYW5uZXIudHN4@Props": {
       "type": "object",
       "properties": {
         "image": {
@@ -9357,7 +9357,7 @@
           "title": "Image"
         },
         "pins": {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0ltYWdlcy9TaG9wcGFibGVCYW5uZXIudHN4@Pin[]",
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0ltYWdlcy9TaG9wcGFibGVCYW5uZXIudHN4@Pin[]",
           "title": "Pins"
         },
         "text": {
@@ -9397,9 +9397,9 @@
         "image",
         "pins"
       ],
-      "title": "deco-sites/fashion/sections/Images/ShoppableBanner.tsx@Props"
+      "title": "deco-sites/dito/sections/Images/ShoppableBanner.tsx@Props"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvdWkvTGlua1RyZWUudHN4@Link": {
+    "ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvdWkvTGlua1RyZWUudHN4@Link": {
       "type": "object",
       "properties": {
         "label": {
@@ -9417,14 +9417,14 @@
       ],
       "title": "Link"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvdWkvTGlua1RyZWUudHN4@Link[]": {
+    "ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvdWkvTGlua1RyZWUudHN4@Link[]": {
       "type": "array",
       "items": {
-        "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvdWkvTGlua1RyZWUudHN4@Link"
+        "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvdWkvTGlua1RyZWUudHN4@Link"
       },
       "title": "Link[]"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvdWkvTGlua1RyZWUudHN4@Social": {
+    "ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvdWkvTGlua1RyZWUudHN4@Social": {
       "type": "object",
       "properties": {
         "label": {
@@ -9452,14 +9452,14 @@
       ],
       "title": "Social"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvdWkvTGlua1RyZWUudHN4@Social[]": {
+    "ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvdWkvTGlua1RyZWUudHN4@Social[]": {
       "type": "array",
       "items": {
-        "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvdWkvTGlua1RyZWUudHN4@Social"
+        "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvdWkvTGlua1RyZWUudHN4@Social"
       },
       "title": "Social[]"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvdWkvTGlua1RyZWUudHN4@Props": {
+    "ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvdWkvTGlua1RyZWUudHN4@Props": {
       "type": "object",
       "properties": {
         "title": {
@@ -9477,7 +9477,7 @@
           "title": "Description"
         },
         "links": {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvdWkvTGlua1RyZWUudHN4@Link[]",
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvdWkvTGlua1RyZWUudHN4@Link[]",
           "title": "Links"
         },
         "bgImage": {
@@ -9489,14 +9489,14 @@
           "title": "Avatar"
         },
         "social": {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvdWkvTGlua1RyZWUudHN4@Social[]",
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvdWkvTGlua1RyZWUudHN4@Social[]",
           "title": "Social"
         }
       },
       "required": [],
-      "title": "deco-sites/fashion/components/ui/LinkTree.tsx@Props"
+      "title": "deco-sites/dito/components/ui/LinkTree.tsx@Props"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0xpbmtzL1Nob3J0Y3V0cy50c3g=@Shortcut": {
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0xpbmtzL1Nob3J0Y3V0cy50c3g=@Shortcut": {
       "type": "object",
       "properties": {
         "label": {
@@ -9671,13 +9671,13 @@
       "required": [],
       "title": "Shortcut"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0xpbmtzL1Nob3J0Y3V0cy50c3g=@Props": {
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0xpbmtzL1Nob3J0Y3V0cy50c3g=@Props": {
       "type": "object",
       "properties": {
         "shortcuts": {
           "type": "array",
           "items": {
-            "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0xpbmtzL1Nob3J0Y3V0cy50c3g=@Shortcut"
+            "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0xpbmtzL1Nob3J0Y3V0cy50c3g=@Shortcut"
           },
           "title": "Shortcuts"
         },
@@ -9697,14 +9697,14 @@
         }
       },
       "required": [],
-      "title": "deco-sites/fashion/sections/Links/Shortcuts.tsx@Props"
+      "title": "deco-sites/dito/sections/Links/Shortcuts.tsx@Props"
     },
     "ZGVjby1zaXRlcy9zdGQvY29tcG9uZW50cy90eXBlcy50cw==@HTML": {
       "type": "string",
       "format": "html",
       "title": "HTML"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL01pc2NlbGxhbmVvdXMvQ2FtcGFpZ25UaW1lci50c3g=@Props": {
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL01pc2NlbGxhbmVvdXMvQ2FtcGFpZ25UaW1lci50c3g=@Props": {
       "type": "object",
       "properties": {
         "text": {
@@ -9796,9 +9796,9 @@
         }
       },
       "required": [],
-      "title": "deco-sites/fashion/sections/Miscellaneous/CampaignTimer.tsx@Props"
+      "title": "deco-sites/dito/sections/Miscellaneous/CampaignTimer.tsx@Props"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL05ld3NsZXR0ZXIvTmV3c2xldHRlci50c3g=@Form": {
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL05ld3NsZXR0ZXIvTmV3c2xldHRlci50c3g=@Form": {
       "type": "object",
       "properties": {
         "placeholder": {
@@ -9827,7 +9827,7 @@
       "required": [],
       "title": "Form"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL05ld3NsZXR0ZXIvTmV3c2xldHRlci50c3g=@Props": {
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL05ld3NsZXR0ZXIvTmV3c2xldHRlci50c3g=@Props": {
       "type": "object",
       "properties": {
         "title": {
@@ -9846,7 +9846,7 @@
           "title": "Description"
         },
         "form": {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL05ld3NsZXR0ZXIvTmV3c2xldHRlci50c3g=@Form",
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL05ld3NsZXR0ZXIvTmV3c2xldHRlci50c3g=@Form",
           "title": "Form"
         },
         "layout": {
@@ -9918,9 +9918,9 @@
         }
       },
       "required": [],
-      "title": "deco-sites/fashion/sections/Newsletter/Newsletter.tsx@Props"
+      "title": "deco-sites/dito/sections/Newsletter/Newsletter.tsx@Props"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvcHJvZHVjdC9Qcm9kdWN0RGV0YWlscy50c3g=@Props": {
+    "ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvcHJvZHVjdC9Qcm9kdWN0RGV0YWlscy50c3g=@Props": {
       "type": "object",
       "properties": {
         "page": {
@@ -9950,9 +9950,9 @@
       "required": [
         "page"
       ],
-      "title": "deco-sites/fashion/components/product/ProductDetails.tsx@Props"
+      "title": "deco-sites/dito/components/product/ProductDetails.tsx@Props"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvcHJvZHVjdC9Qcm9kdWN0U2hlbGYudHN4@Props": {
+    "ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvcHJvZHVjdC9Qcm9kdWN0U2hlbGYudHN4@Props": {
       "type": "object",
       "properties": {
         "products": {
@@ -10196,9 +10196,9 @@
       "required": [
         "products"
       ],
-      "title": "deco-sites/fashion/components/product/ProductShelf.tsx@Props"
+      "title": "deco-sites/dito/components/product/ProductShelf.tsx@Props"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvcHJvZHVjdC9Qcm9kdWN0R2FsbGVyeS50c3g=@Columns": {
+    "ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvcHJvZHVjdC9Qcm9kdWN0R2FsbGVyeS50c3g=@Columns": {
       "type": "object",
       "properties": {
         "mobile": {
@@ -10219,7 +10219,7 @@
       "required": [],
       "title": "Columns"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvc2VhcmNoL1NlYXJjaFJlc3VsdC50c3g=@Props": {
+    "ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvc2VhcmNoL1NlYXJjaFJlc3VsdC50c3g=@Props": {
       "type": "object",
       "properties": {
         "page": {
@@ -10242,7 +10242,7 @@
           "title": "Variant"
         },
         "columns": {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvcHJvZHVjdC9Qcm9kdWN0R2FsbGVyeS50c3g=@Columns",
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvcHJvZHVjdC9Qcm9kdWN0R2FsbGVyeS50c3g=@Columns",
           "description": "Number of products per line on grid",
           "title": "Columns"
         }
@@ -10251,9 +10251,9 @@
         "page",
         "columns"
       ],
-      "title": "deco-sites/fashion/components/search/SearchResult.tsx@Props"
+      "title": "deco-sites/dito/components/search/SearchResult.tsx@Props"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL1NvY2lhbC9JbnN0YWdyYW1Qb3N0cy50c3g=@layout": {
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL1NvY2lhbC9JbnN0YWdyYW1Qb3N0cy50c3g=@layout": {
       "type": "object",
       "properties": {
         "headerAlignment": {
@@ -10290,7 +10290,7 @@
       "required": [],
       "title": "layout"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL1NvY2lhbC9JbnN0YWdyYW1Qb3N0cy50c3g=@Props": {
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL1NvY2lhbC9JbnN0YWdyYW1Qb3N0cy50c3g=@Props": {
       "type": "object",
       "properties": {
         "title": {
@@ -10314,16 +10314,16 @@
           "title": "Facebook Token"
         },
         "layout": {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL1NvY2lhbC9JbnN0YWdyYW1Qb3N0cy50c3g=@layout",
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL1NvY2lhbC9JbnN0YWdyYW1Qb3N0cy50c3g=@layout",
           "title": "Layout"
         }
       },
       "required": [
         "facebookToken"
       ],
-      "title": "deco-sites/fashion/sections/Social/InstagramPosts.tsx@Props"
+      "title": "deco-sites/dito/sections/Social/InstagramPosts.tsx@Props"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvdWkvV2hhdHNBcHAudHN4@Props": {
+    "ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvdWkvV2hhdHNBcHAudHN4@Props": {
       "type": "object",
       "properties": {
         "phone": {
@@ -10335,7 +10335,7 @@
         }
       },
       "required": [],
-      "title": "deco-sites/fashion/components/ui/WhatsApp.tsx@Props"
+      "title": "deco-sites/dito/components/ui/WhatsApp.tsx@Props"
     },
     "ZGVjby1zaXRlcy9zdGQvY29tcG9uZW50cy9BbmFseXRpY3MudHN4@Props": {
       "type": "object",
@@ -12519,7 +12519,7 @@
       "type": "object",
       "allOf": [
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvdWkvU2hpcHBpbmdTaW11bGF0aW9uLnRzeA==@Props"
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvdWkvU2hpcHBpbmdTaW11bGF0aW9uLnRzeA==@Props"
         }
       ],
       "required": [
@@ -12802,12 +12802,12 @@
         }
       }
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0NhdGVnb3J5L0NhdGVnb3J5QmFubmVyLnRzeA==": {
-      "title": "deco-sites/fashion/sections/Category/CategoryBanner.tsx",
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NhdGVnb3J5L0NhdGVnb3J5QmFubmVyLnRzeA==": {
+      "title": "deco-sites/dito/sections/Category/CategoryBanner.tsx",
       "type": "object",
       "allOf": [
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvdWkvQmFubmVyUExQLnRzeA==@Props"
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvdWkvQmFubmVyUExQLnRzeA==@Props"
         }
       ],
       "required": [
@@ -12817,18 +12817,18 @@
         "__resolveType": {
           "type": "string",
           "enum": [
-            "deco-sites/fashion/sections/Category/CategoryBanner.tsx"
+            "deco-sites/dito/sections/Category/CategoryBanner.tsx"
           ],
-          "default": "deco-sites/fashion/sections/Category/CategoryBanner.tsx"
+          "default": "deco-sites/dito/sections/Category/CategoryBanner.tsx"
         }
       }
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0NhdGVnb3J5L0NhdGVnb3J5TGlzdC50c3g=": {
-      "title": "deco-sites/fashion/sections/Category/CategoryList.tsx",
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NhdGVnb3J5L0NhdGVnb3J5TGlzdC50c3g=": {
+      "title": "deco-sites/dito/sections/Category/CategoryList.tsx",
       "type": "object",
       "allOf": [
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0NhdGVnb3J5L0NhdGVnb3J5TGlzdC50c3g=@Props"
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NhdGVnb3J5L0NhdGVnb3J5TGlzdC50c3g=@Props"
         }
       ],
       "required": [
@@ -12838,18 +12838,18 @@
         "__resolveType": {
           "type": "string",
           "enum": [
-            "deco-sites/fashion/sections/Category/CategoryList.tsx"
+            "deco-sites/dito/sections/Category/CategoryList.tsx"
           ],
-          "default": "deco-sites/fashion/sections/Category/CategoryList.tsx"
+          "default": "deco-sites/dito/sections/Category/CategoryList.tsx"
         }
       }
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0NvbnRlbnQvQmVuZWZpdHMudHN4": {
-      "title": "deco-sites/fashion/sections/Content/Benefits.tsx",
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvQmVuZWZpdHMudHN4": {
+      "title": "deco-sites/dito/sections/Content/Benefits.tsx",
       "type": "object",
       "allOf": [
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0NvbnRlbnQvQmVuZWZpdHMudHN4@Props"
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvQmVuZWZpdHMudHN4@Props"
         }
       ],
       "required": [
@@ -12859,18 +12859,18 @@
         "__resolveType": {
           "type": "string",
           "enum": [
-            "deco-sites/fashion/sections/Content/Benefits.tsx"
+            "deco-sites/dito/sections/Content/Benefits.tsx"
           ],
-          "default": "deco-sites/fashion/sections/Content/Benefits.tsx"
+          "default": "deco-sites/dito/sections/Content/Benefits.tsx"
         }
       }
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0NvbnRlbnQvRmFxLnRzeA==": {
-      "title": "deco-sites/fashion/sections/Content/Faq.tsx",
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvRmFxLnRzeA==": {
+      "title": "deco-sites/dito/sections/Content/Faq.tsx",
       "type": "object",
       "allOf": [
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0NvbnRlbnQvRmFxLnRzeA==@Props"
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvRmFxLnRzeA==@Props"
         }
       ],
       "required": [
@@ -12880,18 +12880,18 @@
         "__resolveType": {
           "type": "string",
           "enum": [
-            "deco-sites/fashion/sections/Content/Faq.tsx"
+            "deco-sites/dito/sections/Content/Faq.tsx"
           ],
-          "default": "deco-sites/fashion/sections/Content/Faq.tsx"
+          "default": "deco-sites/dito/sections/Content/Faq.tsx"
         }
       }
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0NvbnRlbnQvTG9nb3MudHN4": {
-      "title": "deco-sites/fashion/sections/Content/Logos.tsx",
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvTG9nb3MudHN4": {
+      "title": "deco-sites/dito/sections/Content/Logos.tsx",
       "type": "object",
       "allOf": [
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0NvbnRlbnQvTG9nb3MudHN4@Props"
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvTG9nb3MudHN4@Props"
         }
       ],
       "required": [
@@ -12901,18 +12901,18 @@
         "__resolveType": {
           "type": "string",
           "enum": [
-            "deco-sites/fashion/sections/Content/Logos.tsx"
+            "deco-sites/dito/sections/Content/Logos.tsx"
           ],
-          "default": "deco-sites/fashion/sections/Content/Logos.tsx"
+          "default": "deco-sites/dito/sections/Content/Logos.tsx"
         }
       }
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0NvbnRlbnQvVGVzdGltb25pYWxzLnRzeA==": {
-      "title": "deco-sites/fashion/sections/Content/Testimonials.tsx",
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvVGVzdGltb25pYWxzLnRzeA==": {
+      "title": "deco-sites/dito/sections/Content/Testimonials.tsx",
       "type": "object",
       "allOf": [
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0NvbnRlbnQvVGVzdGltb25pYWxzLnRzeA==@Props"
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvVGVzdGltb25pYWxzLnRzeA==@Props"
         }
       ],
       "required": [
@@ -12922,18 +12922,18 @@
         "__resolveType": {
           "type": "string",
           "enum": [
-            "deco-sites/fashion/sections/Content/Testimonials.tsx"
+            "deco-sites/dito/sections/Content/Testimonials.tsx"
           ],
-          "default": "deco-sites/fashion/sections/Content/Testimonials.tsx"
+          "default": "deco-sites/dito/sections/Content/Testimonials.tsx"
         }
       }
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0Rlc2lnblN5c3RlbS9EZXNpZ25TeXN0ZW0udHN4": {
-      "title": "deco-sites/fashion/sections/DesignSystem/DesignSystem.tsx",
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0Rlc2lnblN5c3RlbS9EZXNpZ25TeXN0ZW0udHN4": {
+      "title": "deco-sites/dito/sections/DesignSystem/DesignSystem.tsx",
       "type": "object",
       "allOf": [
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0Rlc2lnblN5c3RlbS9EZXNpZ25TeXN0ZW0udHN4@Props"
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0Rlc2lnblN5c3RlbS9EZXNpZ25TeXN0ZW0udHN4@Props"
         }
       ],
       "required": [
@@ -12943,18 +12943,18 @@
         "__resolveType": {
           "type": "string",
           "enum": [
-            "deco-sites/fashion/sections/DesignSystem/DesignSystem.tsx"
+            "deco-sites/dito/sections/DesignSystem/DesignSystem.tsx"
           ],
-          "default": "deco-sites/fashion/sections/DesignSystem/DesignSystem.tsx"
+          "default": "deco-sites/dito/sections/DesignSystem/DesignSystem.tsx"
         }
       }
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0Zvb3Rlci9Gb290ZXIudHN4": {
-      "title": "deco-sites/fashion/sections/Footer/Footer.tsx",
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0Zvb3Rlci9Gb290ZXIudHN4": {
+      "title": "deco-sites/dito/sections/Footer/Footer.tsx",
       "type": "object",
       "allOf": [
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvZm9vdGVyL0Zvb3Rlci50c3g=@Props"
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvZm9vdGVyL0Zvb3Rlci50c3g=@Props"
         }
       ],
       "required": [
@@ -12964,18 +12964,18 @@
         "__resolveType": {
           "type": "string",
           "enum": [
-            "deco-sites/fashion/sections/Footer/Footer.tsx"
+            "deco-sites/dito/sections/Footer/Footer.tsx"
           ],
-          "default": "deco-sites/fashion/sections/Footer/Footer.tsx"
+          "default": "deco-sites/dito/sections/Footer/Footer.tsx"
         }
       }
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0hlYWRlci9IZWFkZXIudHN4": {
-      "title": "deco-sites/fashion/sections/Header/Header.tsx",
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0hlYWRlci9IZWFkZXIudHN4": {
+      "title": "deco-sites/dito/sections/Header/Header.tsx",
       "type": "object",
       "allOf": [
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvaGVhZGVyL0hlYWRlci50c3g=@Props"
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvaGVhZGVyL0hlYWRlci50c3g=@Props"
         }
       ],
       "required": [
@@ -12985,18 +12985,18 @@
         "__resolveType": {
           "type": "string",
           "enum": [
-            "deco-sites/fashion/sections/Header/Header.tsx"
+            "deco-sites/dito/sections/Header/Header.tsx"
           ],
-          "default": "deco-sites/fashion/sections/Header/Header.tsx"
+          "default": "deco-sites/dito/sections/Header/Header.tsx"
         }
       }
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0ltYWdlcy9CYW5uZXJHcmlkLnRzeA==": {
-      "title": "deco-sites/fashion/sections/Images/BannerGrid.tsx",
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0ltYWdlcy9CYW5uZXJHcmlkLnRzeA==": {
+      "title": "deco-sites/dito/sections/Images/BannerGrid.tsx",
       "type": "object",
       "allOf": [
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvdWkvQmFubmVyR3JpZC50c3g=@Props"
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvdWkvQmFubmVyR3JpZC50c3g=@Props"
         }
       ],
       "required": [
@@ -13006,18 +13006,18 @@
         "__resolveType": {
           "type": "string",
           "enum": [
-            "deco-sites/fashion/sections/Images/BannerGrid.tsx"
+            "deco-sites/dito/sections/Images/BannerGrid.tsx"
           ],
-          "default": "deco-sites/fashion/sections/Images/BannerGrid.tsx"
+          "default": "deco-sites/dito/sections/Images/BannerGrid.tsx"
         }
       }
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0ltYWdlcy9DYXJvdXNlbC50c3g=": {
-      "title": "deco-sites/fashion/sections/Images/Carousel.tsx",
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0ltYWdlcy9DYXJvdXNlbC50c3g=": {
+      "title": "deco-sites/dito/sections/Images/Carousel.tsx",
       "type": "object",
       "allOf": [
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvdWkvQmFubmVyQ2Fyb3VzZWwudHN4@Props"
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvdWkvQmFubmVyQ2Fyb3VzZWwudHN4@Props"
         }
       ],
       "required": [
@@ -13027,18 +13027,18 @@
         "__resolveType": {
           "type": "string",
           "enum": [
-            "deco-sites/fashion/sections/Images/Carousel.tsx"
+            "deco-sites/dito/sections/Images/Carousel.tsx"
           ],
-          "default": "deco-sites/fashion/sections/Images/Carousel.tsx"
+          "default": "deco-sites/dito/sections/Images/Carousel.tsx"
         }
       }
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0ltYWdlcy9JbWFnZUdhbGxlcnkudHN4": {
-      "title": "deco-sites/fashion/sections/Images/ImageGallery.tsx",
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0ltYWdlcy9JbWFnZUdhbGxlcnkudHN4": {
+      "title": "deco-sites/dito/sections/Images/ImageGallery.tsx",
       "type": "object",
       "allOf": [
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0ltYWdlcy9JbWFnZUdhbGxlcnkudHN4@Props"
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0ltYWdlcy9JbWFnZUdhbGxlcnkudHN4@Props"
         }
       ],
       "required": [
@@ -13048,18 +13048,18 @@
         "__resolveType": {
           "type": "string",
           "enum": [
-            "deco-sites/fashion/sections/Images/ImageGallery.tsx"
+            "deco-sites/dito/sections/Images/ImageGallery.tsx"
           ],
-          "default": "deco-sites/fashion/sections/Images/ImageGallery.tsx"
+          "default": "deco-sites/dito/sections/Images/ImageGallery.tsx"
         }
       }
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0ltYWdlcy9TaG9wcGFibGVCYW5uZXIudHN4": {
-      "title": "deco-sites/fashion/sections/Images/ShoppableBanner.tsx",
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0ltYWdlcy9TaG9wcGFibGVCYW5uZXIudHN4": {
+      "title": "deco-sites/dito/sections/Images/ShoppableBanner.tsx",
       "type": "object",
       "allOf": [
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0ltYWdlcy9TaG9wcGFibGVCYW5uZXIudHN4@Props"
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0ltYWdlcy9TaG9wcGFibGVCYW5uZXIudHN4@Props"
         }
       ],
       "required": [
@@ -13069,18 +13069,18 @@
         "__resolveType": {
           "type": "string",
           "enum": [
-            "deco-sites/fashion/sections/Images/ShoppableBanner.tsx"
+            "deco-sites/dito/sections/Images/ShoppableBanner.tsx"
           ],
-          "default": "deco-sites/fashion/sections/Images/ShoppableBanner.tsx"
+          "default": "deco-sites/dito/sections/Images/ShoppableBanner.tsx"
         }
       }
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0xpbmtzL0xpbmtUcmVlLnRzeA==": {
-      "title": "deco-sites/fashion/sections/Links/LinkTree.tsx",
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0xpbmtzL0xpbmtUcmVlLnRzeA==": {
+      "title": "deco-sites/dito/sections/Links/LinkTree.tsx",
       "type": "object",
       "allOf": [
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvdWkvTGlua1RyZWUudHN4@Props"
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvdWkvTGlua1RyZWUudHN4@Props"
         }
       ],
       "required": [
@@ -13090,18 +13090,18 @@
         "__resolveType": {
           "type": "string",
           "enum": [
-            "deco-sites/fashion/sections/Links/LinkTree.tsx"
+            "deco-sites/dito/sections/Links/LinkTree.tsx"
           ],
-          "default": "deco-sites/fashion/sections/Links/LinkTree.tsx"
+          "default": "deco-sites/dito/sections/Links/LinkTree.tsx"
         }
       }
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0xpbmtzL1Nob3J0Y3V0cy50c3g=": {
-      "title": "deco-sites/fashion/sections/Links/Shortcuts.tsx",
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0xpbmtzL1Nob3J0Y3V0cy50c3g=": {
+      "title": "deco-sites/dito/sections/Links/Shortcuts.tsx",
       "type": "object",
       "allOf": [
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0xpbmtzL1Nob3J0Y3V0cy50c3g=@Props"
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0xpbmtzL1Nob3J0Y3V0cy50c3g=@Props"
         }
       ],
       "required": [
@@ -13111,18 +13111,18 @@
         "__resolveType": {
           "type": "string",
           "enum": [
-            "deco-sites/fashion/sections/Links/Shortcuts.tsx"
+            "deco-sites/dito/sections/Links/Shortcuts.tsx"
           ],
-          "default": "deco-sites/fashion/sections/Links/Shortcuts.tsx"
+          "default": "deco-sites/dito/sections/Links/Shortcuts.tsx"
         }
       }
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL01pc2NlbGxhbmVvdXMvQ2FtcGFpZ25UaW1lci50c3g=": {
-      "title": "deco-sites/fashion/sections/Miscellaneous/CampaignTimer.tsx",
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL01pc2NlbGxhbmVvdXMvQ2FtcGFpZ25UaW1lci50c3g=": {
+      "title": "deco-sites/dito/sections/Miscellaneous/CampaignTimer.tsx",
       "type": "object",
       "allOf": [
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL01pc2NlbGxhbmVvdXMvQ2FtcGFpZ25UaW1lci50c3g=@Props"
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL01pc2NlbGxhbmVvdXMvQ2FtcGFpZ25UaW1lci50c3g=@Props"
         }
       ],
       "required": [
@@ -13132,14 +13132,14 @@
         "__resolveType": {
           "type": "string",
           "enum": [
-            "deco-sites/fashion/sections/Miscellaneous/CampaignTimer.tsx"
+            "deco-sites/dito/sections/Miscellaneous/CampaignTimer.tsx"
           ],
-          "default": "deco-sites/fashion/sections/Miscellaneous/CampaignTimer.tsx"
+          "default": "deco-sites/dito/sections/Miscellaneous/CampaignTimer.tsx"
         }
       }
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL01pc2NlbGxhbmVvdXMvQ29va2llQ29uc2VudC50c3g=": {
-      "title": "deco-sites/fashion/sections/Miscellaneous/CookieConsent.tsx",
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL01pc2NlbGxhbmVvdXMvQ29va2llQ29uc2VudC50c3g=": {
+      "title": "deco-sites/dito/sections/Miscellaneous/CookieConsent.tsx",
       "type": "object",
       "required": [
         "__resolveType"
@@ -13148,39 +13148,18 @@
         "__resolveType": {
           "type": "string",
           "enum": [
-            "deco-sites/fashion/sections/Miscellaneous/CookieConsent.tsx"
+            "deco-sites/dito/sections/Miscellaneous/CookieConsent.tsx"
           ],
-          "default": "deco-sites/fashion/sections/Miscellaneous/CookieConsent.tsx"
+          "default": "deco-sites/dito/sections/Miscellaneous/CookieConsent.tsx"
         }
       }
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL05ld3NsZXR0ZXIvTmV3c2xldHRlci50c3g=": {
-      "title": "deco-sites/fashion/sections/Newsletter/Newsletter.tsx",
-      "type": "object",
-      "allOf": [
-        {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL05ld3NsZXR0ZXIvTmV3c2xldHRlci50c3g=@Props"
-        }
-      ],
-      "required": [
-        "__resolveType"
-      ],
-      "properties": {
-        "__resolveType": {
-          "type": "string",
-          "enum": [
-            "deco-sites/fashion/sections/Newsletter/Newsletter.tsx"
-          ],
-          "default": "deco-sites/fashion/sections/Newsletter/Newsletter.tsx"
-        }
-      }
-    },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL1Byb2R1Y3QvUHJvZHVjdERldGFpbHMudHN4": {
-      "title": "deco-sites/fashion/sections/Product/ProductDetails.tsx",
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL05ld3NsZXR0ZXIvTmV3c2xldHRlci50c3g=": {
+      "title": "deco-sites/dito/sections/Newsletter/Newsletter.tsx",
       "type": "object",
       "allOf": [
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvcHJvZHVjdC9Qcm9kdWN0RGV0YWlscy50c3g=@Props"
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL05ld3NsZXR0ZXIvTmV3c2xldHRlci50c3g=@Props"
         }
       ],
       "required": [
@@ -13190,18 +13169,18 @@
         "__resolveType": {
           "type": "string",
           "enum": [
-            "deco-sites/fashion/sections/Product/ProductDetails.tsx"
+            "deco-sites/dito/sections/Newsletter/Newsletter.tsx"
           ],
-          "default": "deco-sites/fashion/sections/Product/ProductDetails.tsx"
+          "default": "deco-sites/dito/sections/Newsletter/Newsletter.tsx"
         }
       }
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL1Byb2R1Y3QvUHJvZHVjdFNoZWxmLnRzeA==": {
-      "title": "deco-sites/fashion/sections/Product/ProductShelf.tsx",
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL1Byb2R1Y3QvUHJvZHVjdERldGFpbHMudHN4": {
+      "title": "deco-sites/dito/sections/Product/ProductDetails.tsx",
       "type": "object",
       "allOf": [
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvcHJvZHVjdC9Qcm9kdWN0U2hlbGYudHN4@Props"
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvcHJvZHVjdC9Qcm9kdWN0RGV0YWlscy50c3g=@Props"
         }
       ],
       "required": [
@@ -13211,18 +13190,18 @@
         "__resolveType": {
           "type": "string",
           "enum": [
-            "deco-sites/fashion/sections/Product/ProductShelf.tsx"
+            "deco-sites/dito/sections/Product/ProductDetails.tsx"
           ],
-          "default": "deco-sites/fashion/sections/Product/ProductShelf.tsx"
+          "default": "deco-sites/dito/sections/Product/ProductDetails.tsx"
         }
       }
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL1Byb2R1Y3QvU2VhcmNoUmVzdWx0LnRzeA==": {
-      "title": "deco-sites/fashion/sections/Product/SearchResult.tsx",
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL1Byb2R1Y3QvUHJvZHVjdFNoZWxmLnRzeA==": {
+      "title": "deco-sites/dito/sections/Product/ProductShelf.tsx",
       "type": "object",
       "allOf": [
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvc2VhcmNoL1NlYXJjaFJlc3VsdC50c3g=@Props"
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvcHJvZHVjdC9Qcm9kdWN0U2hlbGYudHN4@Props"
         }
       ],
       "required": [
@@ -13232,18 +13211,18 @@
         "__resolveType": {
           "type": "string",
           "enum": [
-            "deco-sites/fashion/sections/Product/SearchResult.tsx"
+            "deco-sites/dito/sections/Product/ProductShelf.tsx"
           ],
-          "default": "deco-sites/fashion/sections/Product/SearchResult.tsx"
+          "default": "deco-sites/dito/sections/Product/ProductShelf.tsx"
         }
       }
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL1Byb2R1Y3QvV2lzaGxpc3QudHN4": {
-      "title": "deco-sites/fashion/sections/Product/Wishlist.tsx",
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL1Byb2R1Y3QvU2VhcmNoUmVzdWx0LnRzeA==": {
+      "title": "deco-sites/dito/sections/Product/SearchResult.tsx",
       "type": "object",
       "allOf": [
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvc2VhcmNoL1NlYXJjaFJlc3VsdC50c3g=@Props"
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvc2VhcmNoL1NlYXJjaFJlc3VsdC50c3g=@Props"
         }
       ],
       "required": [
@@ -13253,18 +13232,18 @@
         "__resolveType": {
           "type": "string",
           "enum": [
-            "deco-sites/fashion/sections/Product/Wishlist.tsx"
+            "deco-sites/dito/sections/Product/SearchResult.tsx"
           ],
-          "default": "deco-sites/fashion/sections/Product/Wishlist.tsx"
+          "default": "deco-sites/dito/sections/Product/SearchResult.tsx"
         }
       }
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL1NvY2lhbC9JbnN0YWdyYW1Qb3N0cy50c3g=": {
-      "title": "deco-sites/fashion/sections/Social/InstagramPosts.tsx",
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL1Byb2R1Y3QvV2lzaGxpc3QudHN4": {
+      "title": "deco-sites/dito/sections/Product/Wishlist.tsx",
       "type": "object",
       "allOf": [
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL1NvY2lhbC9JbnN0YWdyYW1Qb3N0cy50c3g=@Props"
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvc2VhcmNoL1NlYXJjaFJlc3VsdC50c3g=@Props"
         }
       ],
       "required": [
@@ -13274,18 +13253,18 @@
         "__resolveType": {
           "type": "string",
           "enum": [
-            "deco-sites/fashion/sections/Social/InstagramPosts.tsx"
+            "deco-sites/dito/sections/Product/Wishlist.tsx"
           ],
-          "default": "deco-sites/fashion/sections/Social/InstagramPosts.tsx"
+          "default": "deco-sites/dito/sections/Product/Wishlist.tsx"
         }
       }
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL1NvY2lhbC9XaGF0c0FwcC50c3g=": {
-      "title": "deco-sites/fashion/sections/Social/WhatsApp.tsx",
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL1NvY2lhbC9JbnN0YWdyYW1Qb3N0cy50c3g=": {
+      "title": "deco-sites/dito/sections/Social/InstagramPosts.tsx",
       "type": "object",
       "allOf": [
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvdWkvV2hhdHNBcHAudHN4@Props"
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL1NvY2lhbC9JbnN0YWdyYW1Qb3N0cy50c3g=@Props"
         }
       ],
       "required": [
@@ -13295,9 +13274,30 @@
         "__resolveType": {
           "type": "string",
           "enum": [
-            "deco-sites/fashion/sections/Social/WhatsApp.tsx"
+            "deco-sites/dito/sections/Social/InstagramPosts.tsx"
           ],
-          "default": "deco-sites/fashion/sections/Social/WhatsApp.tsx"
+          "default": "deco-sites/dito/sections/Social/InstagramPosts.tsx"
+        }
+      }
+    },
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL1NvY2lhbC9XaGF0c0FwcC50c3g=": {
+      "title": "deco-sites/dito/sections/Social/WhatsApp.tsx",
+      "type": "object",
+      "allOf": [
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvdWkvV2hhdHNBcHAudHN4@Props"
+        }
+      ],
+      "required": [
+        "__resolveType"
+      ],
+      "properties": {
+        "__resolveType": {
+          "type": "string",
+          "enum": [
+            "deco-sites/dito/sections/Social/WhatsApp.tsx"
+          ],
+          "default": "deco-sites/dito/sections/Social/WhatsApp.tsx"
         }
       }
     },
@@ -14457,76 +14457,76 @@
           "$ref": "#/definitions/JGxpdmUvc2VjdGlvbnMvVXNlU2xvdC50c3g="
         },
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0NhdGVnb3J5L0NhdGVnb3J5QmFubmVyLnRzeA=="
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NhdGVnb3J5L0NhdGVnb3J5QmFubmVyLnRzeA=="
         },
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0NhdGVnb3J5L0NhdGVnb3J5TGlzdC50c3g="
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NhdGVnb3J5L0NhdGVnb3J5TGlzdC50c3g="
         },
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0NvbnRlbnQvQmVuZWZpdHMudHN4"
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvQmVuZWZpdHMudHN4"
         },
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0NvbnRlbnQvRmFxLnRzeA=="
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvRmFxLnRzeA=="
         },
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0NvbnRlbnQvTG9nb3MudHN4"
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvTG9nb3MudHN4"
         },
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0NvbnRlbnQvVGVzdGltb25pYWxzLnRzeA=="
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvVGVzdGltb25pYWxzLnRzeA=="
         },
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0Rlc2lnblN5c3RlbS9EZXNpZ25TeXN0ZW0udHN4"
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0Rlc2lnblN5c3RlbS9EZXNpZ25TeXN0ZW0udHN4"
         },
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0Zvb3Rlci9Gb290ZXIudHN4"
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0Zvb3Rlci9Gb290ZXIudHN4"
         },
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0hlYWRlci9IZWFkZXIudHN4"
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0hlYWRlci9IZWFkZXIudHN4"
         },
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0ltYWdlcy9CYW5uZXJHcmlkLnRzeA=="
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0ltYWdlcy9CYW5uZXJHcmlkLnRzeA=="
         },
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0ltYWdlcy9DYXJvdXNlbC50c3g="
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0ltYWdlcy9DYXJvdXNlbC50c3g="
         },
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0ltYWdlcy9JbWFnZUdhbGxlcnkudHN4"
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0ltYWdlcy9JbWFnZUdhbGxlcnkudHN4"
         },
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0ltYWdlcy9TaG9wcGFibGVCYW5uZXIudHN4"
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0ltYWdlcy9TaG9wcGFibGVCYW5uZXIudHN4"
         },
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0xpbmtzL0xpbmtUcmVlLnRzeA=="
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0xpbmtzL0xpbmtUcmVlLnRzeA=="
         },
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0xpbmtzL1Nob3J0Y3V0cy50c3g="
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0xpbmtzL1Nob3J0Y3V0cy50c3g="
         },
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL01pc2NlbGxhbmVvdXMvQ2FtcGFpZ25UaW1lci50c3g="
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL01pc2NlbGxhbmVvdXMvQ2FtcGFpZ25UaW1lci50c3g="
         },
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL01pc2NlbGxhbmVvdXMvQ29va2llQ29uc2VudC50c3g="
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL01pc2NlbGxhbmVvdXMvQ29va2llQ29uc2VudC50c3g="
         },
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL05ld3NsZXR0ZXIvTmV3c2xldHRlci50c3g="
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL05ld3NsZXR0ZXIvTmV3c2xldHRlci50c3g="
         },
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL1Byb2R1Y3QvUHJvZHVjdERldGFpbHMudHN4"
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL1Byb2R1Y3QvUHJvZHVjdERldGFpbHMudHN4"
         },
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL1Byb2R1Y3QvUHJvZHVjdFNoZWxmLnRzeA=="
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL1Byb2R1Y3QvUHJvZHVjdFNoZWxmLnRzeA=="
         },
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL1Byb2R1Y3QvU2VhcmNoUmVzdWx0LnRzeA=="
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL1Byb2R1Y3QvU2VhcmNoUmVzdWx0LnRzeA=="
         },
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL1Byb2R1Y3QvV2lzaGxpc3QudHN4"
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL1Byb2R1Y3QvV2lzaGxpc3QudHN4"
         },
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL1NvY2lhbC9JbnN0YWdyYW1Qb3N0cy50c3g="
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL1NvY2lhbC9JbnN0YWdyYW1Qb3N0cy50c3g="
         },
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL1NvY2lhbC9XaGF0c0FwcC50c3g="
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL1NvY2lhbC9XaGF0c0FwcC50c3g="
         },
         {
           "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvQW5hbHl0aWNzLnRzeA=="
