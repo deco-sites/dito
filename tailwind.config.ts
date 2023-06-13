@@ -4,5 +4,11 @@ export default {
   plugins: [daisyui],
   daisyui: { themes: [], logs: false },
   content: ["./**/*.tsx"],
-  theme: { container: { center: true } },
+  theme: {
+    extend: {
+      fontFamily: {
+        montserrat: ["Montserrat"],
+      },
+    },
+  },
 };

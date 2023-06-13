@@ -3,18 +3,15 @@ import { lazy, Suspense } from "preact/compat";
 import { useUI } from "$store/sdk/useUI.ts";
 
 import type { Props as MenuProps } from "$store/components/header/Menu.tsx";
-import type { Props as SearchbarProps } from "$store/components/search/Searchbar.tsx";
 
 const Menu = lazy(() => import("$store/components/header/Menu.tsx"));
 const Cart = lazy(() => import("$store/components/minicart/Cart.tsx"));
-const Searchbar = lazy(() => import("$store/components/search/Searchbar.tsx"));
 
 interface Props {
   menu: MenuProps;
-  searchbar?: SearchbarProps;
 }
 
-function Modals({ menu, searchbar }: Props) {
+function Modals({ menu }: Props) {
   const { displayCart, displayMenu, displaySearchbar } = useUI();
 
   const fallback = (
@@ -50,7 +47,6 @@ function Modals({ menu, searchbar }: Props) {
         }}
       >
         <Suspense fallback={fallback}>
-          <Searchbar {...searchbar} />
         </Suspense>
       </Modal>
 
