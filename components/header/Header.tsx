@@ -23,7 +23,7 @@ function Header({
 }: Props) {
   return (
     <>
-      <header style={{ height: headerHeight }} class="flex">
+      <header style={{ height: headerHeight }} class="flex container ">
         <div class="bg-base-100 flex w-full z-50">
           <Navbar items={navItems} logo={image} />
         </div>
