@@ -24,7 +24,7 @@ function Navbar({ items, logo }: {
           style={{ minHeight: navbarHeight }}
           aria-label="Store logo"
         >
-          <img src={logo} width="112" height="79"/>
+          <img src={logo} width="112" height="79" />
         </a>
       </div>
 
@@ -32,7 +32,7 @@ function Navbar({ items, logo }: {
       <div class="hidden md:flex flex-row justify-between items-center w-full px-3">
         <div class="flex-none w-44">
           <a href="/" aria-label="Store logo" class="flex">
-            <img src={logo} width="112" height="79"/>
+            <img src={logo} width="112" height="79" />
           </a>
         </div>
         <div class="flex-auto flex justify-end">

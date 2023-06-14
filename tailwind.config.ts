@@ -5,13 +5,12 @@ export default {
   daisyui: { themes: [], logs: false },
   content: ["./**/*.tsx"],
   theme: {
-
     extend: {
       fontFamily: {
         montserrat: ["Montserrat"],
       },
-      colors:{
-        'main': '#39C881'
+      colors: {
+        "main": "#39C881",
       },
     },
   },
