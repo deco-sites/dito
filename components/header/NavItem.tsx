@@ -9,7 +9,7 @@ function NavItem({ item }: { item: INavItem }) {
   return (
     <li class="group flex items-center">
       <a href={href} class="px-4 py-3">
-        <span class="text-xs group-hover:underline">
+        <span class="text-xs hover:text-main">
           {label}
         </span>
       </a>

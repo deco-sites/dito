@@ -9,6 +9,9 @@ export default {
       fontFamily: {
         montserrat: ["Montserrat"],
       },
+      colors: {
+        "main": "#39C881",
+      },
     },
   },
 };
