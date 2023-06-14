@@ -1,7 +1,5 @@
 import Modals from "$store/islands/HeaderModals.tsx";
-import type { Image } from "deco-sites/std/components/types.ts";
-
-import Alert from "./Alert.tsx";
+import type { Image as LiveImage } from "deco-sites/std/components/types.ts";
 import Navbar from "./Navbar.tsx";
 import { headerHeight } from "./constants.ts";
 
@@ -11,7 +9,7 @@ export interface NavItem {
 }
 
 export interface Props {
-  alerts: string[];
+  image: LiveImage;
   /**
    * @title Navigation items
    * @description Navigation items used both on mobile and desktop menus
@@ -20,15 +18,14 @@ export interface Props {
 }
 
 function Header({
-  alerts,
+  image,
   navItems = [],
 }: Props) {
   return (
     <>
-      <header style={{ height: headerHeight }}>
-        <div class="bg-base-100 fixed w-full z-50">
-          <Alert alerts={alerts} />
-          <Navbar items={navItems} />
+      <header style={{ height: headerHeight }} class="flex">
+        <div class="bg-base-100 flex w-full z-50">
+          <Navbar items={navItems} logo={image} />
         </div>
 
         <Modals

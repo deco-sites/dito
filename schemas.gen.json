@@ -8470,12 +8470,9 @@
     "ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvaGVhZGVyL0hlYWRlci50c3g=@Props": {
       "type": "object",
       "properties": {
-        "alerts": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          },
-          "title": "Alerts"
+        "image": {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tcG9uZW50cy90eXBlcy50cw==@Image",
+          "title": "Image"
         },
         "navItems": {
           "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvaGVhZGVyL0hlYWRlci50c3g=@NavItem[]",
@@ -8484,7 +8481,7 @@
         }
       },
       "required": [
-        "alerts"
+        "image"
       ],
       "title": "deco-sites/dito/components/header/Header.tsx@Props"
     },
