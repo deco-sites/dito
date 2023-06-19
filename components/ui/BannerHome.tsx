@@ -36,7 +36,7 @@ function BannerHome({ imgDesktop, imgMobile, action }: Props) {
           href={action?.href}
         >
           {action?.label}
-        </a>ß
+        </a>
       </div>
 
       <div class={"flex-auto w-3/5"}>
