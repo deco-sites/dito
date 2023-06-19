@@ -7681,44 +7681,9 @@
     "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvTG9nb3MudHN4@Props": {
       "type": "object",
       "properties": {
-        "title": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "title": "Title"
-        },
-        "description": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "title": "Description"
-        },
         "images": {
           "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvTG9nb3MudHN4@Image[]",
           "title": "Images"
-        },
-        "layout": {
-          "type": "object",
-          "properties": {
-            "headerAlignment": {
-              "anyOf": [
-                {
-                  "type": "string",
-                  "const": "center"
-                },
-                {
-                  "type": "string",
-                  "const": "left"
-                }
-              ],
-              "type": "string",
-              "title": "Header Alignment"
-            }
-          },
-          "required": [],
-          "title": "Layout"
         }
       },
       "required": [],
