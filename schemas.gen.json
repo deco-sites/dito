@@ -90,7 +90,7 @@
               "deco-sites/dito/sections/Footer/Footer.tsx",
               "deco-sites/dito/sections/Header/Header.tsx",
               "deco-sites/dito/sections/Images/BannerGrid.tsx",
-              "deco-sites/dito/sections/Images/Carousel.tsx",
+              "deco-sites/dito/sections/Images/BannerHome.tsx",
               "deco-sites/dito/sections/Images/ImageGallery.tsx",
               "deco-sites/dito/sections/Images/ShoppableBanner.tsx",
               "deco-sites/dito/sections/Links/LinkTree.tsx",
@@ -101,7 +101,6 @@
               "deco-sites/dito/sections/Product/ProductShelf.tsx",
               "deco-sites/dito/sections/Product/SearchResult.tsx",
               "deco-sites/dito/sections/Product/Wishlist.tsx",
-              "deco-sites/dito/sections/Social/InstagramPosts.tsx",
               "deco-sites/dito/sections/Social/WhatsApp.tsx",
               "deco-sites/std/sections/Analytics.tsx",
               "deco-sites/std/sections/configButterCMS.global.tsx",
@@ -7064,10 +7063,6 @@
           ],
           "title": "Path"
         },
-        "layout": {
-          "$ref": "#/definitions/ZGVjby1jeC9saXZlL2Jsb2Nrcy9wYWdlLnRz@Page",
-          "title": "Layout"
-        },
         "sections": {
           "$ref": "#/definitions/ZGVjby1jeC9saXZlL2Jsb2Nrcy9zZWN0aW9uLnRz@Section[]",
           "title": "Sections"
@@ -8675,30 +8670,25 @@
       ],
       "title": "deco-sites/dito/components/ui/BannerGrid.tsx@Props"
     },
-    "ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvdWkvQmFubmVyQ2Fyb3VzZWwudHN4@Banner": {
+    "ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvdWkvQmFubmVySG9tZS50c3g=@Props": {
       "type": "object",
       "properties": {
-        "desktop": {
+        "imgDesktop": {
           "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tcG9uZW50cy90eXBlcy50cw==@Image",
           "description": "desktop otimized image",
-          "title": "Desktop"
+          "title": "Img Desktop"
         },
-        "mobile": {
+        "imgMobile": {
           "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tcG9uZW50cy90eXBlcy50cw==@Image",
           "description": "mobile otimized image",
-          "title": "Mobile"
-        },
-        "alt": {
-          "type": "string",
-          "description": "Image's alt text",
-          "title": "Alt"
+          "title": "Img Mobile"
         },
         "action": {
           "type": "object",
           "properties": {
-            "href": {
+            "titleHighlight": {
               "type": "string",
-              "title": "Href"
+              "title": "Title Highlight"
             },
             "title": {
               "type": "string",
@@ -8711,57 +8701,24 @@
             "label": {
               "type": "string",
               "title": "Label"
+            },
+            "href": {
+              "type": "string",
+              "title": "Href"
             }
           },
           "required": [
-            "href",
+            "titleHighlight",
             "title",
             "subTitle",
-            "label"
+            "label",
+            "href"
           ],
           "title": "Action"
         }
       },
-      "required": [
-        "desktop",
-        "mobile",
-        "alt"
-      ],
-      "title": "Banner"
-    },
-    "ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvdWkvQmFubmVyQ2Fyb3VzZWwudHN4@Banner[]": {
-      "type": "array",
-      "items": {
-        "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvdWkvQmFubmVyQ2Fyb3VzZWwudHN4@Banner"
-      },
-      "title": "Banner[]"
-    },
-    "ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvdWkvQmFubmVyQ2Fyb3VzZWwudHN4@Props": {
-      "type": "object",
-      "properties": {
-        "images": {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvdWkvQmFubmVyQ2Fyb3VzZWwudHN4@Banner[]",
-          "title": "Images"
-        },
-        "preload": {
-          "type": [
-            "boolean",
-            "null"
-          ],
-          "description": "Check this option when this banner is the biggest image on the screen for image optimizations",
-          "title": "Preload"
-        },
-        "interval": {
-          "type": [
-            "number",
-            "null"
-          ],
-          "title": "Autoplay interval",
-          "description": "time (in seconds) to start the carousel autoplay"
-        }
-      },
       "required": [],
-      "title": "deco-sites/dito/components/ui/BannerCarousel.tsx@Props"
+      "title": "deco-sites/dito/components/ui/BannerHome.tsx@Props"
     },
     "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0ltYWdlcy9JbWFnZUdhbGxlcnkudHN4@Banner": {
       "type": "object",
@@ -9845,76 +9802,6 @@
       ],
       "title": "deco-sites/dito/components/search/SearchResult.tsx@Props"
     },
-    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL1NvY2lhbC9JbnN0YWdyYW1Qb3N0cy50c3g=@layout": {
-      "type": "object",
-      "properties": {
-        "headerAlignment": {
-          "anyOf": [
-            {
-              "type": "string",
-              "const": "center"
-            },
-            {
-              "type": "string",
-              "const": "left"
-            }
-          ],
-          "type": "string",
-          "title": "Header Alignment"
-        },
-        "numberOfPosts": {
-          "type": [
-            "number",
-            "null"
-          ],
-          "description": "Default is 12",
-          "title": "Number Of Posts"
-        },
-        "postsPerLine": {
-          "type": [
-            "number",
-            "null"
-          ],
-          "description": "Up to 6. Default is 4",
-          "title": "Posts Per Line"
-        }
-      },
-      "required": [],
-      "title": "layout"
-    },
-    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL1NvY2lhbC9JbnN0YWdyYW1Qb3N0cy50c3g=@Props": {
-      "type": "object",
-      "properties": {
-        "title": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "title": "Title"
-        },
-        "description": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "title": "Description"
-        },
-        "facebookToken": {
-          "type": "string",
-          "description": "Get it in Facebook app. Expires every 90 days.",
-          "format": "textarea",
-          "title": "Facebook Token"
-        },
-        "layout": {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL1NvY2lhbC9JbnN0YWdyYW1Qb3N0cy50c3g=@layout",
-          "title": "Layout"
-        }
-      },
-      "required": [
-        "facebookToken"
-      ],
-      "title": "deco-sites/dito/sections/Social/InstagramPosts.tsx@Props"
-    },
     "ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvdWkvV2hhdHNBcHAudHN4@Props": {
       "type": "object",
       "properties": {
@@ -10533,7 +10420,7 @@
       ],
       "title": "WorkflowRef"
     },
-    "ZGVjby1jeC9saXZlL2FjdGlvbnMvd29ya2Zsb3dzL3N0YXJ0LnRz@2dc3ea494e366f0c07f2bf4cd27907ef|WorkflowRef": {
+    "ZGVjby1jeC9saXZlL2FjdGlvbnMvd29ya2Zsb3dzL3N0YXJ0LnRz@83d660dd3cbc0efa537555e12b086226|WorkflowRef": {
       "anyOf": [
         {
           "$ref": "#/definitions/ZGVjby1jeC9saXZlL2FjdGlvbnMvd29ya2Zsb3dzL3N0YXJ0LnRz@WorkflowRef"
@@ -10551,13 +10438,13 @@
           ]
         }
       ],
-      "title": "2dc3ea494e366f0c07f2bf4cd27907ef|WorkflowRef"
+      "title": "83d660dd3cbc0efa537555e12b086226|WorkflowRef"
     },
     "ZGVjby1jeC9saXZlL2FjdGlvbnMvd29ya2Zsb3dzL3N0YXJ0LnRz@Props": {
       "type": "object",
       "properties": {
         "workflow": {
-          "$ref": "#/definitions/ZGVjby1jeC9saXZlL2FjdGlvbnMvd29ya2Zsb3dzL3N0YXJ0LnRz@2dc3ea494e366f0c07f2bf4cd27907ef|WorkflowRef",
+          "$ref": "#/definitions/ZGVjby1jeC9saXZlL2FjdGlvbnMvd29ya2Zsb3dzL3N0YXJ0LnRz@83d660dd3cbc0efa537555e12b086226|WorkflowRef",
           "title": "Workflow"
         },
         "id": {
@@ -12575,12 +12462,12 @@
         }
       }
     },
-    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0ltYWdlcy9DYXJvdXNlbC50c3g=": {
-      "title": "deco-sites/dito/sections/Images/Carousel.tsx",
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0ltYWdlcy9CYW5uZXJIb21lLnRzeA==": {
+      "title": "deco-sites/dito/sections/Images/BannerHome.tsx",
       "type": "object",
       "allOf": [
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvdWkvQmFubmVyQ2Fyb3VzZWwudHN4@Props"
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvdWkvQmFubmVySG9tZS50c3g=@Props"
         }
       ],
       "required": [
@@ -12590,9 +12477,9 @@
         "__resolveType": {
           "type": "string",
           "enum": [
-            "deco-sites/dito/sections/Images/Carousel.tsx"
+            "deco-sites/dito/sections/Images/BannerHome.tsx"
           ],
-          "default": "deco-sites/dito/sections/Images/Carousel.tsx"
+          "default": "deco-sites/dito/sections/Images/BannerHome.tsx"
         }
       }
     },
@@ -12803,27 +12690,6 @@
             "deco-sites/dito/sections/Product/Wishlist.tsx"
           ],
           "default": "deco-sites/dito/sections/Product/Wishlist.tsx"
-        }
-      }
-    },
-    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL1NvY2lhbC9JbnN0YWdyYW1Qb3N0cy50c3g=": {
-      "title": "deco-sites/dito/sections/Social/InstagramPosts.tsx",
-      "type": "object",
-      "allOf": [
-        {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL1NvY2lhbC9JbnN0YWdyYW1Qb3N0cy50c3g=@Props"
-        }
-      ],
-      "required": [
-        "__resolveType"
-      ],
-      "properties": {
-        "__resolveType": {
-          "type": "string",
-          "enum": [
-            "deco-sites/dito/sections/Social/InstagramPosts.tsx"
-          ],
-          "default": "deco-sites/dito/sections/Social/InstagramPosts.tsx"
         }
       }
     },
@@ -14028,7 +13894,7 @@
           "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0ltYWdlcy9CYW5uZXJHcmlkLnRzeA=="
         },
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0ltYWdlcy9DYXJvdXNlbC50c3g="
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0ltYWdlcy9CYW5uZXJIb21lLnRzeA=="
         },
         {
           "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0ltYWdlcy9JbWFnZUdhbGxlcnkudHN4"
@@ -14059,9 +13925,6 @@
         },
         {
           "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL1Byb2R1Y3QvV2lzaGxpc3QudHN4"
-        },
-        {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL1NvY2lhbC9JbnN0YWdyYW1Qb3N0cy50c3g="
         },
         {
           "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL1NvY2lhbC9XaGF0c0FwcC50c3g="
@@ -14227,7 +14090,8 @@
       "required": [
         "./routes/_middleware.ts",
         "./routes/[...catchall].tsx",
-        "./routes/index.tsx"
+        "./routes/index.tsx",
+        "./routes/live/previews/index.tsx"
       ],
       "properties": {
         "./routes/_middleware.ts": {
@@ -14248,6 +14112,13 @@
           "anyOf": [
             {
               "$ref": "#/definitions/ZGVjby1jeC9saXZlL2Jsb2Nrcy9oYW5kbGVyLnRz@Handler"
+            }
+          ]
+        },
+        "./routes/live/previews/index.tsx": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/ZGVjby1jeC9saXZlL2Jsb2Nrcy9wYWdlLnRz@Page"
             }
           ]
         }
