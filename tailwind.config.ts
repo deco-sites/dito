@@ -19,7 +19,7 @@ export default {
         montserrat: ["Montserrat"],
       },
       fontSize: {
-        title: ['55px', '1'],
+        title: ["55px", "1"],
       },
       colors: {
         "main": "#39C881",

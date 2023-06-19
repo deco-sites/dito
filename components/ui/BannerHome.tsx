@@ -20,21 +20,30 @@ export interface Props {
 }
 
 function BannerHome({ imgDesktop, imgMobile, action }: Props) {
-
   return (
     <div class={"container flex items-center px-6"}>
       <div class={"flex-auto flex-col w-2/5"}>
-        <h1 class={"text-title font-bold text-main"}>{action?.titleHighlight}</h1>
-        <h1 class={"text-title font-bold"}>{action?.title}<span class={"text-6xl text-main"}>.</span> </h1>
+        <h1 class={"text-title font-bold text-main"}>
+          {action?.titleHighlight}
+        </h1>
+        <h1 class={"text-title font-bold"}>
+          {action?.title}
+          <span class={"text-6xl text-main"}>.</span>
+        </h1>
         <h2 class={"text-xl leading-8 max-w-lg my-5"}>{action?.subTitle}</h2>
-        <a class={"btn btn-secondary hover:text-white text-lg px-14"} href={action?.href}>{action?.label}</a>
+        <a
+          class={"btn btn-secondary hover:text-white text-lg px-14"}
+          href={action?.href}
+        >
+          {action?.label}
+        </a>ß
       </div>
 
       <div class={"flex-auto w-3/5"}>
-          <img
-            class="object-cover w-full h-full"
-            src={imgDesktop}
-          />
+        <img
+          class="object-cover w-full h-full"
+          src={imgDesktop}
+        />
       </div>
     </div>
   );
