@@ -84,6 +84,7 @@
               "deco-sites/dito/sections/Category/CategoryBanner.tsx",
               "deco-sites/dito/sections/Category/CategoryList.tsx",
               "deco-sites/dito/sections/Content/Benefits.tsx",
+              "deco-sites/dito/sections/Content/BenefitsOLD.tsx",
               "deco-sites/dito/sections/Content/Logos.tsx",
               "deco-sites/dito/sections/Content/Testimonials.tsx",
               "deco-sites/dito/sections/DesignSystem/DesignSystem.tsx",
@@ -7417,7 +7418,42 @@
       "required": [],
       "title": "deco-sites/dito/sections/Category/CategoryList.tsx@Props"
     },
-    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvQmVuZWZpdHMudHN4@Props": {
+    "ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvYmVuZWZpdHMvQmVuZWZpdHMudHN4@Props": {
+      "type": "object",
+      "properties": {
+        "benefits": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "icon": {
+                "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tcG9uZW50cy90eXBlcy50cw==@Image",
+                "title": "Icon"
+              },
+              "title": {
+                "type": "string",
+                "title": "Title"
+              },
+              "description": {
+                "type": "string",
+                "title": "Description"
+              }
+            },
+            "required": [
+              "icon",
+              "title",
+              "description"
+            ]
+          },
+          "title": "Benefits"
+        }
+      },
+      "required": [
+        "benefits"
+      ],
+      "title": "deco-sites/dito/components/benefits/Benefits.tsx@Props"
+    },
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvQmVuZWZpdHNPTEQudHN4@Props": {
       "type": "object",
       "properties": {
         "title": {
@@ -7651,7 +7687,7 @@
         }
       },
       "required": [],
-      "title": "deco-sites/dito/sections/Content/Benefits.tsx@Props"
+      "title": "deco-sites/dito/sections/Content/BenefitsOLD.tsx@Props"
     },
     "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvTG9nb3MudHN4@Image": {
       "type": "object",
@@ -12285,7 +12321,7 @@
       "type": "object",
       "allOf": [
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvQmVuZWZpdHMudHN4@Props"
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvYmVuZWZpdHMvQmVuZWZpdHMudHN4@Props"
         }
       ],
       "required": [
@@ -12298,6 +12334,27 @@
             "deco-sites/dito/sections/Content/Benefits.tsx"
           ],
           "default": "deco-sites/dito/sections/Content/Benefits.tsx"
+        }
+      }
+    },
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvQmVuZWZpdHNPTEQudHN4": {
+      "title": "deco-sites/dito/sections/Content/BenefitsOLD.tsx",
+      "type": "object",
+      "allOf": [
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvQmVuZWZpdHNPTEQudHN4@Props"
+        }
+      ],
+      "required": [
+        "__resolveType"
+      ],
+      "properties": {
+        "__resolveType": {
+          "type": "string",
+          "enum": [
+            "deco-sites/dito/sections/Content/BenefitsOLD.tsx"
+          ],
+          "default": "deco-sites/dito/sections/Content/BenefitsOLD.tsx"
         }
       }
     },
@@ -13839,6 +13896,9 @@
         },
         {
           "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvQmVuZWZpdHMudHN4"
+        },
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvQmVuZWZpdHNPTEQudHN4"
         },
         {
           "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvTG9nb3MudHN4"
