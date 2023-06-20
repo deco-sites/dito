@@ -1,5 +1,3 @@
-import Image from "deco-sites/std/components/Image.tsx";
-import Header from "$store/components/ui/SectionHeader.tsx";
 import { useMemo } from "preact/hooks";
 import type { Image as ImageType } from "deco-sites/std/components/types.ts";
 
@@ -9,12 +7,7 @@ export interface Image {
 }
 
 export interface Props {
-  title?: string;
-  description?: string;
   images?: Image[];
-  layout?: {
-    headerAlignment?: "center" | "left";
-  };
 }
 
 const IMAGES = [
@@ -32,10 +25,7 @@ const IMAGES = [
 
 function Logos(props: Props) {
   const {
-    title,
-    description,
     images,
-    layout,
   } = props;
   const list = useMemo(
     () =>
@@ -46,22 +36,15 @@ function Logos(props: Props) {
   );
 
   return (
-    <div class="w-full container px-4 py-8 flex flex-col gap-8 lg:gap-12 lg:py-10 lg:px-0">
-      <Header
-        title={title}
-        description={description}
-        alignment={layout?.headerAlignment || "center"}
-      />
-      <div class="w-full text-center items-center">
+    <div class="w-full container px-6 mb-5 flex flex-col">
+      <div class="w-full flex text-center justify-between">
         {list.map((element) => (
-          <div class="w-36 lg:w-40 h-17 lg:h-20 px-4 lg:px-6 py-6 lg:py-4 inline-block align-middle">
+          <div class="inline-block align-middle">
             <div class="flex w-full h-full items-center justify-center">
-              <Image
-                width={300}
-                height={300}
+              <img
+                class="object-none w-full h-full"
                 src={element.image}
                 alt={element.altText || ""}
-                class="max-w-full max-h-full"
               />
             </div>
           </div>

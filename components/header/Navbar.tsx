@@ -29,7 +29,7 @@ function Navbar({ items, logo }: {
       </div>
 
       {/* Desktop Version */}
-      <div class="hidden md:flex flex-row justify-between items-center w-full px-3">
+      <div class="hidden md:flex flex-row justify-between items-center w-full">
         <div class="flex-none w-44">
           <a href="/" aria-label="Store logo" class="flex">
             <img src={logo} width="112" height="79" />
@@ -40,7 +40,7 @@ function Navbar({ items, logo }: {
         </div>
         <div class="flex-none  flex items-center justify-center">
           <a
-            class="btn btn-sm rounded-full border-main border-2 text-main bg-white w-28 h-9 mx-3"
+            class="btn btn-sm rounded-full border-main border-2 text-main bg-white w-28 h-9 mx-3  hover:bg-main hover:text-white hover:border-main"
             href="/login"
             aria-label="Log in"
           >
