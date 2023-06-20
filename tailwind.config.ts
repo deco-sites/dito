@@ -20,6 +20,7 @@ export default {
       },
       fontSize: {
         title: ["55px", "1"],
+        secondaryTitle: ["40px", "1.1"],
       },
       colors: {
         "main": "#39C881",

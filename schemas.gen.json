@@ -85,6 +85,7 @@
               "deco-sites/dito/sections/Category/CategoryList.tsx",
               "deco-sites/dito/sections/Content/Benefits.tsx",
               "deco-sites/dito/sections/Content/BenefitsOLD.tsx",
+              "deco-sites/dito/sections/Content/IncreaseSales.tsx",
               "deco-sites/dito/sections/Content/Logos.tsx",
               "deco-sites/dito/sections/Content/Testimonials.tsx",
               "deco-sites/dito/sections/DesignSystem/DesignSystem.tsx",
@@ -7689,6 +7690,56 @@
       "required": [],
       "title": "deco-sites/dito/sections/Content/BenefitsOLD.tsx@Props"
     },
+    "ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvaW5jcmVhc2VTYWxlcy9JbmNyZWFzZVNhbGVzLnRzeA==@Props": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "title": "Title"
+        },
+        "increaseSales": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "icon": {
+                "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tcG9uZW50cy90eXBlcy50cw==@Image",
+                "title": "Icon"
+              },
+              "title": {
+                "type": "string",
+                "title": "Title"
+              },
+              "description": {
+                "type": "string",
+                "title": "Description"
+              }
+            },
+            "required": [
+              "icon",
+              "title",
+              "description"
+            ]
+          },
+          "title": "Increase Sales"
+        },
+        "label": {
+          "type": "string",
+          "title": "Label"
+        },
+        "href": {
+          "type": "string",
+          "title": "Href"
+        }
+      },
+      "required": [
+        "title",
+        "increaseSales",
+        "label",
+        "href"
+      ],
+      "title": "deco-sites/dito/components/increaseSales/IncreaseSales.tsx@Props"
+    },
     "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvTG9nb3MudHN4@Image": {
       "type": "object",
       "properties": {
@@ -12358,6 +12409,27 @@
         }
       }
     },
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvSW5jcmVhc2VTYWxlcy50c3g=": {
+      "title": "deco-sites/dito/sections/Content/IncreaseSales.tsx",
+      "type": "object",
+      "allOf": [
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvaW5jcmVhc2VTYWxlcy9JbmNyZWFzZVNhbGVzLnRzeA==@Props"
+        }
+      ],
+      "required": [
+        "__resolveType"
+      ],
+      "properties": {
+        "__resolveType": {
+          "type": "string",
+          "enum": [
+            "deco-sites/dito/sections/Content/IncreaseSales.tsx"
+          ],
+          "default": "deco-sites/dito/sections/Content/IncreaseSales.tsx"
+        }
+      }
+    },
     "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvTG9nb3MudHN4": {
       "title": "deco-sites/dito/sections/Content/Logos.tsx",
       "type": "object",
@@ -13899,6 +13971,9 @@
         },
         {
           "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvQmVuZWZpdHNPTEQudHN4"
+        },
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvSW5jcmVhc2VTYWxlcy50c3g="
         },
         {
           "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvTG9nb3MudHN4"
