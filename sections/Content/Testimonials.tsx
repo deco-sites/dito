@@ -11,8 +11,9 @@ export interface Testimonial {
   user?: {
     name?: string;
     position?: string;
-    href?: string;
   };
+  href?: string;
+  label?: string;
 }
 
 export interface Props {
@@ -22,13 +23,13 @@ export interface Props {
   testimonials?: Testimonial[];
 }
 
-const Testimonal = ({ image, text, user }: Testimonial) => (
+const Testimonal = ({ image, text, user, href, label }: Testimonial) => (
   <div class="flex flex-col items-center max-w-xs">
     {image?.src && (
       <img src={image.src} alt={image?.alt} class="h-24 object-scale-down">
       </img>
     )}
-    <h3 class="text-white leading-7 text-justify mb-auto pb-20">
+    <h3 class="text-white leading-7 text-justify mb-10 min-h-[150px]">
       {text}
     </h3>
     <div class="flex flex-col self-start mb-7 mt-auto">
@@ -47,9 +48,9 @@ const Testimonal = ({ image, text, user }: Testimonial) => (
     </div>
     <a
       class={"btn btn-secondary hover:text-white text-lg px-11 mt-auto"}
-      href={user?.href}
+      href={href}
     >
-      VER CASE
+      {label}
     </a>
   </div>
 );
@@ -70,8 +71,14 @@ export default function Testimonials(
         </h2>
 
         <div class="flex w-full justify-between">
-          {testimonials?.map(({ image, text, user }) => (
-            <Testimonal image={image} text={text} user={user} />
+          {testimonials?.map(({ image, text, user, href, label }) => (
+            <Testimonal
+              image={image}
+              text={text}
+              user={user}
+              href={href}
+              label={label}
+            />
           ))}
         </div>
       </div>

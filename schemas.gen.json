@@ -87,6 +87,7 @@
               "deco-sites/dito/sections/Content/BenefitsOLD.tsx",
               "deco-sites/dito/sections/Content/IncreaseSales.tsx",
               "deco-sites/dito/sections/Content/Logos.tsx",
+              "deco-sites/dito/sections/Content/Professionals.tsx",
               "deco-sites/dito/sections/Content/RequestDemo.tsx",
               "deco-sites/dito/sections/Content/Testimonials.tsx",
               "deco-sites/dito/sections/DesignSystem/DesignSystem.tsx",
@@ -7777,6 +7778,63 @@
       "required": [],
       "title": "deco-sites/dito/sections/Content/Logos.tsx@Props"
     },
+    "ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvcHJvZmVzc2lvbmFscy9Qcm9mZXNzaW9uYWxzLnRzeA==@Props": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "title": "Title"
+        },
+        "subTitle": {
+          "type": "string",
+          "title": "Sub Title"
+        },
+        "professionals": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "icon": {
+                "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tcG9uZW50cy90eXBlcy50cw==@Image",
+                "title": "Icon"
+              },
+              "title": {
+                "type": "string",
+                "title": "Title"
+              },
+              "description": {
+                "type": "string",
+                "title": "Description"
+              }
+            },
+            "required": [
+              "icon",
+              "title",
+              "description"
+            ]
+          },
+          "title": "Professionals"
+        },
+        "href": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "title": "Href"
+        },
+        "label": {
+          "type": "string",
+          "title": "Label"
+        }
+      },
+      "required": [
+        "title",
+        "subTitle",
+        "professionals",
+        "label"
+      ],
+      "title": "deco-sites/dito/components/professionals/Professionals.tsx@Props"
+    },
     "ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvcmVxdWVzdERlbW8vUmVxdWVzdERlbW8udHN4@Props": {
       "type": "object",
       "properties": {
@@ -7871,17 +7929,24 @@
                 "null"
               ],
               "title": "Position"
-            },
-            "href": {
-              "type": [
-                "string",
-                "null"
-              ],
-              "title": "Href"
             }
           },
           "required": [],
           "title": "User"
+        },
+        "href": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "title": "Href"
+        },
+        "label": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "title": "Label"
         }
       },
       "required": [],
@@ -12470,6 +12535,27 @@
         }
       }
     },
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvUHJvZmVzc2lvbmFscy50c3g=": {
+      "title": "deco-sites/dito/sections/Content/Professionals.tsx",
+      "type": "object",
+      "allOf": [
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvcHJvZmVzc2lvbmFscy9Qcm9mZXNzaW9uYWxzLnRzeA==@Props"
+        }
+      ],
+      "required": [
+        "__resolveType"
+      ],
+      "properties": {
+        "__resolveType": {
+          "type": "string",
+          "enum": [
+            "deco-sites/dito/sections/Content/Professionals.tsx"
+          ],
+          "default": "deco-sites/dito/sections/Content/Professionals.tsx"
+        }
+      }
+    },
     "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvUmVxdWVzdERlbW8udHN4": {
       "title": "deco-sites/dito/sections/Content/RequestDemo.tsx",
       "type": "object",
@@ -14017,6 +14103,9 @@
         },
         {
           "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvTG9nb3MudHN4"
+        },
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvUHJvZmVzc2lvbmFscy50c3g="
         },
         {
           "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvUmVxdWVzdERlbW8udHN4"
