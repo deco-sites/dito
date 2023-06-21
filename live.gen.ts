@@ -28,17 +28,18 @@ import * as $$$$$$$$8 from "./sections/Content/BenefitsOLD.tsx";
 import * as $$$$$$$$9 from "./sections/Content/IncreaseSales.tsx";
 import * as $$$$$$$$10 from "./sections/Content/Testimonials.tsx";
 import * as $$$$$$$$11 from "./sections/Content/Logos.tsx";
-import * as $$$$$$$$12 from "./sections/Content/Benefits.tsx";
-import * as $$$$$$$$13 from "./sections/Product/Wishlist.tsx";
-import * as $$$$$$$$14 from "./sections/Product/SearchResult.tsx";
-import * as $$$$$$$$15 from "./sections/Product/ProductShelf.tsx";
-import * as $$$$$$$$16 from "./sections/Product/ProductDetails.tsx";
-import * as $$$$$$$$17 from "./sections/Miscellaneous/CampaignTimer.tsx";
-import * as $$$$$$$$18 from "./sections/Miscellaneous/CookieConsent.tsx";
-import * as $$$$$$$$19 from "./sections/Social/WhatsApp.tsx";
-import * as $$$$$$$$20 from "./sections/Links/LinkTree.tsx";
-import * as $$$$$$$$21 from "./sections/Newsletter/Newsletter.tsx";
-import * as $$$$$$$$22 from "./sections/Header/Header.tsx";
+import * as $$$$$$$$12 from "./sections/Content/RequestDemo.tsx";
+import * as $$$$$$$$13 from "./sections/Content/Benefits.tsx";
+import * as $$$$$$$$14 from "./sections/Product/Wishlist.tsx";
+import * as $$$$$$$$15 from "./sections/Product/SearchResult.tsx";
+import * as $$$$$$$$16 from "./sections/Product/ProductShelf.tsx";
+import * as $$$$$$$$17 from "./sections/Product/ProductDetails.tsx";
+import * as $$$$$$$$18 from "./sections/Miscellaneous/CampaignTimer.tsx";
+import * as $$$$$$$$19 from "./sections/Miscellaneous/CookieConsent.tsx";
+import * as $$$$$$$$20 from "./sections/Social/WhatsApp.tsx";
+import * as $$$$$$$$21 from "./sections/Links/LinkTree.tsx";
+import * as $$$$$$$$22 from "./sections/Newsletter/Newsletter.tsx";
+import * as $$$$$$$$23 from "./sections/Header/Header.tsx";
 import * as $live_middleware from "$live/routes/_middleware.ts";
 import * as $live_workbench from "$live/routes/live/workbench.ts";
 import * as $live_invoke from "$live/routes/live/invoke/index.ts";
@@ -187,27 +188,28 @@ const manifest = {
     "$live/sections/UseSlot.tsx": i2$$$$2,
     "deco-sites/dito/sections/Category/CategoryBanner.tsx": $$$$$$$$2,
     "deco-sites/dito/sections/Category/CategoryList.tsx": $$$$$$$$3,
-    "deco-sites/dito/sections/Content/Benefits.tsx": $$$$$$$$12,
+    "deco-sites/dito/sections/Content/Benefits.tsx": $$$$$$$$13,
     "deco-sites/dito/sections/Content/BenefitsOLD.tsx": $$$$$$$$8,
     "deco-sites/dito/sections/Content/IncreaseSales.tsx": $$$$$$$$9,
     "deco-sites/dito/sections/Content/Logos.tsx": $$$$$$$$11,
+    "deco-sites/dito/sections/Content/RequestDemo.tsx": $$$$$$$$12,
     "deco-sites/dito/sections/Content/Testimonials.tsx": $$$$$$$$10,
     "deco-sites/dito/sections/DesignSystem/DesignSystem.tsx": $$$$$$$$1,
     "deco-sites/dito/sections/Footer/Footer.tsx": $$$$$$$$0,
-    "deco-sites/dito/sections/Header/Header.tsx": $$$$$$$$22,
+    "deco-sites/dito/sections/Header/Header.tsx": $$$$$$$$23,
     "deco-sites/dito/sections/Images/BannerGrid.tsx": $$$$$$$$5,
     "deco-sites/dito/sections/Images/BannerHome.tsx": $$$$$$$$6,
     "deco-sites/dito/sections/Images/ImageGallery.tsx": $$$$$$$$7,
     "deco-sites/dito/sections/Images/ShoppableBanner.tsx": $$$$$$$$4,
-    "deco-sites/dito/sections/Links/LinkTree.tsx": $$$$$$$$20,
-    "deco-sites/dito/sections/Miscellaneous/CampaignTimer.tsx": $$$$$$$$17,
-    "deco-sites/dito/sections/Miscellaneous/CookieConsent.tsx": $$$$$$$$18,
-    "deco-sites/dito/sections/Newsletter/Newsletter.tsx": $$$$$$$$21,
-    "deco-sites/dito/sections/Product/ProductDetails.tsx": $$$$$$$$16,
-    "deco-sites/dito/sections/Product/ProductShelf.tsx": $$$$$$$$15,
-    "deco-sites/dito/sections/Product/SearchResult.tsx": $$$$$$$$14,
-    "deco-sites/dito/sections/Product/Wishlist.tsx": $$$$$$$$13,
-    "deco-sites/dito/sections/Social/WhatsApp.tsx": $$$$$$$$19,
+    "deco-sites/dito/sections/Links/LinkTree.tsx": $$$$$$$$21,
+    "deco-sites/dito/sections/Miscellaneous/CampaignTimer.tsx": $$$$$$$$18,
+    "deco-sites/dito/sections/Miscellaneous/CookieConsent.tsx": $$$$$$$$19,
+    "deco-sites/dito/sections/Newsletter/Newsletter.tsx": $$$$$$$$22,
+    "deco-sites/dito/sections/Product/ProductDetails.tsx": $$$$$$$$17,
+    "deco-sites/dito/sections/Product/ProductShelf.tsx": $$$$$$$$16,
+    "deco-sites/dito/sections/Product/SearchResult.tsx": $$$$$$$$15,
+    "deco-sites/dito/sections/Product/Wishlist.tsx": $$$$$$$$14,
+    "deco-sites/dito/sections/Social/WhatsApp.tsx": $$$$$$$$20,
     "deco-sites/std/sections/Analytics.tsx": i2$$$$3,
     "deco-sites/std/sections/configButterCMS.global.tsx": i2$$$$4,
     "deco-sites/std/sections/configOCC.global.tsx": i2$$$$5,
