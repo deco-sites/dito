@@ -87,6 +87,7 @@
               "deco-sites/dito/sections/Content/BenefitsOLD.tsx",
               "deco-sites/dito/sections/Content/IncreaseSales.tsx",
               "deco-sites/dito/sections/Content/Logos.tsx",
+              "deco-sites/dito/sections/Content/RequestDemo.tsx",
               "deco-sites/dito/sections/Content/Testimonials.tsx",
               "deco-sites/dito/sections/DesignSystem/DesignSystem.tsx",
               "deco-sites/dito/sections/Footer/Footer.tsx",
@@ -7776,6 +7777,56 @@
       "required": [],
       "title": "deco-sites/dito/sections/Content/Logos.tsx@Props"
     },
+    "ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvcmVxdWVzdERlbW8vUmVxdWVzdERlbW8udHN4@Props": {
+      "type": "object",
+      "properties": {
+        "background": {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tcG9uZW50cy90eXBlcy50cw==@Image",
+          "title": "Background"
+        },
+        "demonstration": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "icon": {
+                "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tcG9uZW50cy90eXBlcy50cw==@Image",
+                "title": "Icon"
+              },
+              "title": {
+                "type": "string",
+                "title": "Title"
+              },
+              "description": {
+                "type": "string",
+                "title": "Description"
+              }
+            },
+            "required": [
+              "icon",
+              "title",
+              "description"
+            ]
+          },
+          "title": "Demonstration"
+        },
+        "label": {
+          "type": "string",
+          "title": "Label"
+        },
+        "href": {
+          "type": "string",
+          "title": "Href"
+        }
+      },
+      "required": [
+        "background",
+        "demonstration",
+        "label",
+        "href"
+      ],
+      "title": "deco-sites/dito/components/requestDemo/RequestDemo.tsx@Props"
+    },
     "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvVGVzdGltb25pYWxzLnRzeA==@Testimonial": {
       "type": "object",
       "properties": {
@@ -12451,6 +12502,27 @@
         }
       }
     },
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvUmVxdWVzdERlbW8udHN4": {
+      "title": "deco-sites/dito/sections/Content/RequestDemo.tsx",
+      "type": "object",
+      "allOf": [
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvcmVxdWVzdERlbW8vUmVxdWVzdERlbW8udHN4@Props"
+        }
+      ],
+      "required": [
+        "__resolveType"
+      ],
+      "properties": {
+        "__resolveType": {
+          "type": "string",
+          "enum": [
+            "deco-sites/dito/sections/Content/RequestDemo.tsx"
+          ],
+          "default": "deco-sites/dito/sections/Content/RequestDemo.tsx"
+        }
+      }
+    },
     "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvVGVzdGltb25pYWxzLnRzeA==": {
       "title": "deco-sites/dito/sections/Content/Testimonials.tsx",
       "type": "object",
@@ -13977,6 +14049,9 @@
         },
         {
           "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvTG9nb3MudHN4"
+        },
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvUmVxdWVzdERlbW8udHN4"
         },
         {
           "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvVGVzdGltb25pYWxzLnRzeA=="
