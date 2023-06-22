@@ -8,6 +8,7 @@ export interface Image {
 
 export interface Props {
   images?: Image[];
+  backgroundColor?: string;
 }
 
 const IMAGES = [
@@ -26,6 +27,7 @@ const IMAGES = [
 function Logos(props: Props) {
   const {
     images,
+    backgroundColor,
   } = props;
   const list = useMemo(
     () =>
@@ -36,8 +38,8 @@ function Logos(props: Props) {
   );
 
   return (
-    <div class="w-full container px-6 mb-5 flex flex-col">
-      <div class="w-full flex text-center justify-between">
+    <div class={`w-full px-6 pb-5 flex flex-col bg-[#${backgroundColor}]`}>
+      <div class="w-full container flex text-center justify-between">
         {list.map((element) => (
           <div class="inline-block align-middle">
             <div class="flex w-full h-full items-center justify-center">

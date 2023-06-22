@@ -90,9 +90,11 @@
               "deco-sites/dito/sections/Content/Professionals.tsx",
               "deco-sites/dito/sections/Content/RequestDemo.tsx",
               "deco-sites/dito/sections/Content/Testimonials.tsx",
+              "deco-sites/dito/sections/DemoForm/DemoForm.tsx",
               "deco-sites/dito/sections/DesignSystem/DesignSystem.tsx",
               "deco-sites/dito/sections/Footer/Footer.tsx",
               "deco-sites/dito/sections/Header/Header.tsx",
+              "deco-sites/dito/sections/Images/AnimatedBanner.tsx",
               "deco-sites/dito/sections/Images/BannerGrid.tsx",
               "deco-sites/dito/sections/Images/BannerHome.tsx",
               "deco-sites/dito/sections/Images/ImageGallery.tsx",
@@ -7773,6 +7775,13 @@
         "images": {
           "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvTG9nb3MudHN4@Image[]",
           "title": "Images"
+        },
+        "backgroundColor": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "title": "Background Color"
         }
       },
       "required": [],
@@ -7990,6 +7999,29 @@
       },
       "required": [],
       "title": "deco-sites/dito/sections/Content/Testimonials.tsx@Props"
+    },
+    "ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvZGVtb0Zvcm0vRGVtb0Zvcm0udHN4@Props": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "title": "Title"
+        },
+        "description": {
+          "type": "string",
+          "title": "Description"
+        },
+        "label": {
+          "type": "string",
+          "title": "Label"
+        }
+      },
+      "required": [
+        "title",
+        "description",
+        "label"
+      ],
+      "title": "deco-sites/dito/components/demoForm/DemoForm.tsx@Props"
     },
     "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0Rlc2lnblN5c3RlbS9EZXNpZ25TeXN0ZW0udHN4@Colors": {
       "type": "object",
@@ -8615,6 +8647,32 @@
         "image"
       ],
       "title": "deco-sites/dito/components/header/Header.tsx@Props"
+    },
+    "ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvdWkvQW5pbWF0ZWRCYW5uZXIudHN4@Props": {
+      "type": "object",
+      "properties": {
+        "highlight": {
+          "type": "string",
+          "title": "Highlight"
+        },
+        "title": {
+          "type": "string",
+          "title": "Title"
+        },
+        "imgDesktop": {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tcG9uZW50cy90eXBlcy50cw==@Image",
+          "title": "Img Desktop"
+        },
+        "imgMobile": {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tcG9uZW50cy90eXBlcy50cw==@Image",
+          "title": "Img Mobile"
+        }
+      },
+      "required": [
+        "highlight",
+        "title"
+      ],
+      "title": "deco-sites/dito/components/ui/AnimatedBanner.tsx@Props"
     },
     "ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvdWkvQmFubmVyR3JpZC50c3g=@Banner": {
       "type": "object",
@@ -12598,6 +12656,27 @@
         }
       }
     },
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0RlbW9Gb3JtL0RlbW9Gb3JtLnRzeA==": {
+      "title": "deco-sites/dito/sections/DemoForm/DemoForm.tsx",
+      "type": "object",
+      "allOf": [
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvZGVtb0Zvcm0vRGVtb0Zvcm0udHN4@Props"
+        }
+      ],
+      "required": [
+        "__resolveType"
+      ],
+      "properties": {
+        "__resolveType": {
+          "type": "string",
+          "enum": [
+            "deco-sites/dito/sections/DemoForm/DemoForm.tsx"
+          ],
+          "default": "deco-sites/dito/sections/DemoForm/DemoForm.tsx"
+        }
+      }
+    },
     "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0Rlc2lnblN5c3RlbS9EZXNpZ25TeXN0ZW0udHN4": {
       "title": "deco-sites/dito/sections/DesignSystem/DesignSystem.tsx",
       "type": "object",
@@ -12658,6 +12737,27 @@
             "deco-sites/dito/sections/Header/Header.tsx"
           ],
           "default": "deco-sites/dito/sections/Header/Header.tsx"
+        }
+      }
+    },
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0ltYWdlcy9BbmltYXRlZEJhbm5lci50c3g=": {
+      "title": "deco-sites/dito/sections/Images/AnimatedBanner.tsx",
+      "type": "object",
+      "allOf": [
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvdWkvQW5pbWF0ZWRCYW5uZXIudHN4@Props"
+        }
+      ],
+      "required": [
+        "__resolveType"
+      ],
+      "properties": {
+        "__resolveType": {
+          "type": "string",
+          "enum": [
+            "deco-sites/dito/sections/Images/AnimatedBanner.tsx"
+          ],
+          "default": "deco-sites/dito/sections/Images/AnimatedBanner.tsx"
         }
       }
     },
@@ -14114,6 +14214,9 @@
           "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvVGVzdGltb25pYWxzLnRzeA=="
         },
         {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0RlbW9Gb3JtL0RlbW9Gb3JtLnRzeA=="
+        },
+        {
           "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0Rlc2lnblN5c3RlbS9EZXNpZ25TeXN0ZW0udHN4"
         },
         {
@@ -14121,6 +14224,9 @@
         },
         {
           "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0hlYWRlci9IZWFkZXIudHN4"
+        },
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0ltYWdlcy9BbmltYXRlZEJhbm5lci50c3g="
         },
         {
           "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0ltYWdlcy9CYW5uZXJHcmlkLnRzeA=="

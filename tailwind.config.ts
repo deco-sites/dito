@@ -25,6 +25,9 @@ export default {
       colors: {
         "main": "#39C881",
       },
+      boxShadow: {
+        "form": "inset 0px 2px 3px #dddddd",
+      },
     },
   },
 };
