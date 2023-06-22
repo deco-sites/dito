@@ -1,43 +1,30 @@
-import Icon, { AvailableIcons } from "$store/components/ui/Icon.tsx";
-import Newsletter from "$store/islands/Newsletter.tsx";
+import Icon from "$store/components/ui/Icon.tsx";
+import type { Image as LiveImage } from "deco-sites/std/components/types.ts";
 import type { ComponentChildren } from "preact";
 
-export type IconItem = { icon: AvailableIcons };
 export type StringItem = {
   label: string;
   href: string;
 };
 
-export type Item = StringItem | IconItem;
+export type Item = StringItem;
 
 export type Section = {
   label: string;
   children: Item[];
 };
 
-const isIcon = (item: Item): item is IconItem =>
-  // deno-lint-ignore no-explicit-any
-  typeof (item as any)?.icon === "string";
+export type Social = {
+  icon: LiveImage;
+  href: string;
+};
 
 function SectionItem({ item }: { item: Item }) {
   return (
-    <span class="text-primary-content">
-      {isIcon(item)
-        ? (
-          <div class="border-base-100 border border-solid py-1.5 px-2.5">
-            <Icon
-              id={item.icon}
-              width={25}
-              height={20}
-              strokeWidth={0.01}
-            />
-          </div>
-        )
-        : (
-          <a href={item.href}>
-            {item.label}
-          </a>
-        )}
+    <span class="text-primary-content text-xs">
+      <a href={item.href}>
+        {item.label}
+      </a>
     </span>
   );
 }
@@ -52,33 +39,37 @@ function FooterContainer(
 }
 
 export interface Props {
+  logo: LiveImage;
   sections?: Section[];
+  socialMedia?: Social[];
 }
 
-function Footer({ sections = [] }: Props) {
+function Footer({ logo, sections = [], socialMedia = [] }: Props) {
+  console.log(socialMedia);
   return (
-    <footer class="w-full bg-primary flex flex-col divide-y divide-primary-content">
+    <footer class="w-full bg-[#19223c] flex flex-col">
       <div>
-        <div class="container w-full flex flex-col divide-y divide-primary-content">
-          <FooterContainer>
-            <Newsletter />
-          </FooterContainer>
-
+        <div class="container w-full flex flex-col">
           <FooterContainer>
             {/* Desktop view */}
-            <ul class="hidden sm:flex flex-row gap-20">
+            <ul class="hidden sm:flex flex-row justify-between">
+              <li>
+                <a
+                  href="/"
+                  class="flex-grow inline-flex items-center"
+                  aria-label="Store logo"
+                >
+                  <img src={logo} width="145" height="102" />
+                </a>
+              </li>
               {sections.map((section) => (
                 <li>
                   <div>
-                    <span class="font-medium text-xl text-primary-content">
+                    <span class="text-base text-main font-bold">
                       {section.label}
                     </span>
 
-                    <ul
-                      class={`flex ${
-                        isIcon(section.children[0]) ? "flex-row" : "flex-col"
-                      } gap-2 pt-2 flex-wrap`}
-                    >
+                    <ul class="flex flex-col gap-2 pt-2 flex-wrap">
                       {section.children.map((item) => (
                         <li>
                           <SectionItem item={item} />
@@ -94,17 +85,13 @@ function Footer({ sections = [] }: Props) {
             <ul class="flex flex-col sm:hidden sm:flex-row gap-4">
               {sections.map((section) => (
                 <li>
-                  <span class="text-primary-content">
+                  <span class="text-main font-bold">
                     <details>
                       <summary>
                         {section.label}
                       </summary>
 
-                      <ul
-                        class={`flex ${
-                          isIcon(section.children[0]) ? "flex-row" : "flex-col"
-                        } gap-2 px-2 pt-2`}
-                      >
+                      <ul class="flex flex-col gap-2 px-2 pt-2">
                         {section.children.map((item) => (
                           <li>
                             <SectionItem item={item} />
@@ -122,8 +109,24 @@ function Footer({ sections = [] }: Props) {
 
       <div>
         <div class="container w-full">
-          <FooterContainer class="flex justify-between w-full">
-            <span class="flex items-center gap-1 text-primary-content">
+          <FooterContainer class="flex w-full justify-center items-center relative">
+            <ul class="flex items-center self-center gap-5">
+              {socialMedia.map((social) => (
+                <li>
+                  <a
+                    class="block border-2 border-solid rounded-full"
+                    href={social.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Instagram logo"
+                  >
+                    <img class="" width="48" height="48" src={social.icon}>
+                    </img>
+                  </a>
+                </li>
+              ))}
+            </ul>
+            <span class="flex items-center gap-1 text-primary-content absolute right-0">
               Powered by{" "}
               <a
                 href="https://www.deco.cx"
@@ -132,39 +135,6 @@ function Footer({ sections = [] }: Props) {
                 <Icon id="Deco" height={20} width={60} strokeWidth={0.01} />
               </a>
             </span>
-
-            <ul class="flex items-center justify-center gap-2">
-              <li>
-                <a
-                  href="https://www.instagram.com/deco.cx"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Instagram logo"
-                >
-                  <Icon
-                    class="text-primary-content"
-                    width={32}
-                    height={32}
-                    id="Instagram"
-                  />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="http://www.deco.cx/discord"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Discord logo"
-                >
-                  <Icon
-                    class="text-primary-content"
-                    width={32}
-                    height={32}
-                    id="Discord"
-                  />
-                </a>
-              </li>
-            </ul>
           </FooterContainer>
         </div>
       </div>
