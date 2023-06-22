@@ -90,6 +90,7 @@
               "deco-sites/dito/sections/Content/Professionals.tsx",
               "deco-sites/dito/sections/Content/RequestDemo.tsx",
               "deco-sites/dito/sections/Content/Testimonials.tsx",
+              "deco-sites/dito/sections/DemoForm/DemoForm.tsx",
               "deco-sites/dito/sections/DesignSystem/DesignSystem.tsx",
               "deco-sites/dito/sections/Footer/Footer.tsx",
               "deco-sites/dito/sections/Header/Header.tsx",
@@ -7992,6 +7993,29 @@
       "required": [],
       "title": "deco-sites/dito/sections/Content/Testimonials.tsx@Props"
     },
+    "ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvZGVtb0Zvcm0vRGVtb0Zvcm0udHN4@Props": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "title": "Title"
+        },
+        "description": {
+          "type": "string",
+          "title": "Description"
+        },
+        "label": {
+          "type": "string",
+          "title": "Label"
+        }
+      },
+      "required": [
+        "title",
+        "description",
+        "label"
+      ],
+      "title": "deco-sites/dito/components/demoForm/DemoForm.tsx@Props"
+    },
     "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0Rlc2lnblN5c3RlbS9EZXNpZ25TeXN0ZW0udHN4@Colors": {
       "type": "object",
       "properties": {
@@ -12625,6 +12649,27 @@
         }
       }
     },
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0RlbW9Gb3JtL0RlbW9Gb3JtLnRzeA==": {
+      "title": "deco-sites/dito/sections/DemoForm/DemoForm.tsx",
+      "type": "object",
+      "allOf": [
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvZGVtb0Zvcm0vRGVtb0Zvcm0udHN4@Props"
+        }
+      ],
+      "required": [
+        "__resolveType"
+      ],
+      "properties": {
+        "__resolveType": {
+          "type": "string",
+          "enum": [
+            "deco-sites/dito/sections/DemoForm/DemoForm.tsx"
+          ],
+          "default": "deco-sites/dito/sections/DemoForm/DemoForm.tsx"
+        }
+      }
+    },
     "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0Rlc2lnblN5c3RlbS9EZXNpZ25TeXN0ZW0udHN4": {
       "title": "deco-sites/dito/sections/DesignSystem/DesignSystem.tsx",
       "type": "object",
@@ -14160,6 +14205,9 @@
         },
         {
           "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvVGVzdGltb25pYWxzLnRzeA=="
+        },
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0RlbW9Gb3JtL0RlbW9Gb3JtLnRzeA=="
         },
         {
           "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0Rlc2lnblN5c3RlbS9EZXNpZ25TeXN0ZW0udHN4"
