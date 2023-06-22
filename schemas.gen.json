@@ -7775,6 +7775,13 @@
         "images": {
           "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NvbnRlbnQvTG9nb3MudHN4@Image[]",
           "title": "Images"
+        },
+        "backgroundColor": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "title": "Background Color"
         }
       },
       "required": [],
