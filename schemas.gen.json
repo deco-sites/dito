@@ -61,6 +61,7 @@
               "deco-sites/std/loaders/vtex/user.ts",
               "deco-sites/std/loaders/vtex/wishlist.ts",
               "./islands/AddToCartButton.tsx",
+              "./islands/Form.tsx",
               "./islands/HeaderButton.tsx",
               "./islands/HeaderModals.tsx",
               "./islands/Newsletter.tsx",
@@ -11944,6 +11945,22 @@
         }
       }
     },
+    "Li9pc2xhbmRzL0Zvcm0udHN4": {
+      "title": "./islands/Form.tsx",
+      "type": "object",
+      "required": [
+        "__resolveType"
+      ],
+      "properties": {
+        "__resolveType": {
+          "type": "string",
+          "enum": [
+            "./islands/Form.tsx"
+          ],
+          "default": "./islands/Form.tsx"
+        }
+      }
+    },
     "Li9pc2xhbmRzL0hlYWRlckJ1dHRvbi50c3g=": {
       "title": "./islands/HeaderButton.tsx",
       "type": "object",
@@ -13962,6 +13979,9 @@
         },
         {
           "$ref": "#/definitions/Li9pc2xhbmRzL0FkZFRvQ2FydEJ1dHRvbi50c3g="
+        },
+        {
+          "$ref": "#/definitions/Li9pc2xhbmRzL0Zvcm0udHN4"
         },
         {
           "$ref": "#/definitions/Li9pc2xhbmRzL0hlYWRlckJ1dHRvbi50c3g="

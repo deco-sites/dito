@@ -16,6 +16,7 @@ import * as $$$$$6 from "./islands/SliderJS.tsx";
 import * as $$$$$7 from "./islands/ProductImageZoom.tsx";
 import * as $$$$$8 from "./islands/OutOfStock.tsx";
 import * as $$$$$9 from "./islands/SearchControls.tsx";
+import * as $$$$$10 from "./islands/Form.tsx";
 import * as $$$$$$$$0 from "./sections/Footer/Footer.tsx";
 import * as $$$$$$$$1 from "./sections/DesignSystem/DesignSystem.tsx";
 import * as $$$$$$$$2 from "./sections/DemoForm/DemoForm.tsx";
@@ -175,6 +176,7 @@ const manifest = {
   },
   "islands": {
     "./islands/AddToCartButton.tsx": $$$$$4,
+    "./islands/Form.tsx": $$$$$10,
     "./islands/HeaderButton.tsx": $$$$$3,
     "./islands/HeaderModals.tsx": $$$$$5,
     "./islands/Newsletter.tsx": $$$$$0,
