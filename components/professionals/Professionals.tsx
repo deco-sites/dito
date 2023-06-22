@@ -23,7 +23,7 @@ function Professionals(props: Props) {
 
   return (
     <div class="container flex flex-col items-center py-16 px-6">
-      <h2 class="text-secondaryTitle font-bold text-center max-w-[800px] mb-1">
+      <h2 class="text-3xl md:text-secondaryTitle font-bold text-center max-w-[800px] mb-1">
         {title}
         <span class="text-main">.</span>
       </h2>
@@ -50,7 +50,7 @@ function Professionals(props: Props) {
       </div>
 
       <a
-        class={"btn btn-secondary hover:text-white text-lg px-14"}
+        class={"btn btn-secondary hover:text-white text-xs md:text-lg md:px-14"}
         href={href}
       >
         {label}

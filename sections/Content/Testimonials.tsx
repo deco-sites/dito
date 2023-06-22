@@ -49,14 +49,14 @@ const Testimonal = ({ image, text, user, href, label }: Testimonial) => (
       </div>
 
       <a
-        class={"lg:hidden flex btn btn-secondary hover:text-white text-lg px-11 mt-auto"}
+        class={"lg:hidden flex btn btn-secondary hover:text-white text-xs md:text-lg px-11 mt-auto"}
         href={href}
       >
         {label}
       </a>
     </div>
     <a
-      class={"hidden lg:flex btn btn-secondary hover:text-white text-lg px-11 mt-auto"}
+      class={"hidden lg:flex btn btn-secondary hover:text-white text-xs md:text-lg px-11 mt-auto"}
       href={href}
     >
       {label}
@@ -74,7 +74,7 @@ export default function Testimonials(
   return (
     <div class="bg-[#19223c]">
       <div class="w-full container px-4 py-16 flex flex-col items-center">
-        <h2 class="text-secondaryTitle text-center text-white font-bold max-w-[980px] mb-4">
+        <h2 class="text-3xl md:text-secondaryTitle text-center text-white font-bold max-w-[980px] mb-4">
           {title} <span class="text-main">{highlight}</span> {title2}
           <span class="text-main">.</span>
         </h2>

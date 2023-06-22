@@ -23,10 +23,12 @@ function Benefits(props: Props) {
               </img>
             </div>
             <div class="lg:max-w-[240px]">
-              <h3 class="text-5xl font-bold text-[#828a9f]">
+              <h3 class="text-3xl md:text-5xl font-bold text-[#828a9f]">
                 {item?.title}
               </h3>
-              <p class="text-lg text-[#828a9f]">{item?.description}</p>
+              <p class="text-xs md:text-lg text-[#828a9f] text-center md:text-left">
+                {item?.description}
+              </p>
             </div>
           </div>
         ))}

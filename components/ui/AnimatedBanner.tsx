@@ -13,14 +13,14 @@ function AnimatedBanner({ highlight, title, imgDesktop, imgMobile }: Props) {
       class={"container flex items-center justify-around px-6 pb-5 flex-col lg:flex-row"}
     >
       <div class={"flex-auto flex-col lg:w-1/2 lg:max-w-[430px]"}>
-        <h1 class={"text-secondaryTitle font-bold"}>
+        <h1 class={"text-3xl md:text-secondaryTitle font-bold"}>
           <span class="text-main">{highlight}&nbsp;</span>
           {title}
           <span class={"text-main"}>.</span>
         </h1>
       </div>
       <img
-        class="object-cover max-w-lg"
+        class="object-cover max-w-lg flex w-full"
         src={imgDesktop}
       />
     </div>

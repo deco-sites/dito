@@ -22,7 +22,7 @@ function RequestDemo(props: Props) {
   return (
     <div class="container flex justify-between flex-col items-center pb-16 px-6 relative">
       <img
-        class="absolute h-full max-w-[390px] bottom-16 z-0 object-cover lg:object-contain opacity-50 lg:opacity-1"
+        class="absolute overflow-hidden h-full md:max-w-[390px] bottom-16 z-0 object-cover lg:object-contain opacity-50 lg:opacity-1"
         src={background}
       >
       </img>
@@ -43,7 +43,7 @@ function RequestDemo(props: Props) {
       </div>
 
       <a
-        class={"btn btn-secondary hover:text-white text-lg w-96 z-10"}
+        class={"btn btn-secondary hover:text-white text-xs md:text-lg md:w-96 z-10"}
         href={href}
       >
         {label}
