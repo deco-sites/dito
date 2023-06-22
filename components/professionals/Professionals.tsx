@@ -27,16 +27,16 @@ function Professionals(props: Props) {
         {title}
         <span class="text-main">.</span>
       </h2>
-      <p class="text-[22px]">{subTitle}</p>
+      <p class="text-[22px] text-center">{subTitle}</p>
 
-      <div class="flex justify-between mb-7">
+      <div class="flex justify-between mb-7 flex-col lg:flex-row">
         {professionals?.map((item) => (
           <div class="flex flex-col">
-            <div class="flex-none">
+            <div class="hidden lg:flex flex-none">
               <img class="w-[300px]" src={item?.icon}>
               </img>
             </div>
-            <div class="max-w-[250px]">
+            <div class="max-w-lg lg:max-w-[250px]">
               <div class="flex items-center min-h-[66px]">
                 <h3 class=" text-[22px] font-bold leading-7">
                   {item?.title}

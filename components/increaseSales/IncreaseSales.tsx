@@ -20,27 +20,27 @@ function IncreaseSales(props: Props) {
   } = props;
 
   return (
-    <div class="container flex flex-col items-center justify-between pt-16 pb-5 px-6">
+    <div class="container flex flex-col items-center justify-between pt-16 pb-10 lg:pb-5 px-6">
       <h2 class="text-secondaryTitle font-bold text-center">
         {title}
         <span class="text-main">:</span>
       </h2>
 
-      <div class="container flex justify-around mb-5">
+      <div class="container flex justify-around mb-5 flex-col lg:flex-row">
         {increaseSales?.map((item) => (
-          <div class="flex flex-col w-1/3 max-w-[260px]">
+          <div class="flex flex-col items-center lg:items-start lg:w-1/3 lg:max-w-[260px]">
             <img class="h-48" src={item?.icon}></img>
-            <h3 class="text-[28px] font-bold mb-2">
+            <h3 class="text-[28px] w-80 lg:w-full font-bold mb-2">
               {item?.title}
               <span class="text-main">.</span>
             </h3>
-            <p class="leading-7 w-64">{item?.description}</p>
+            <p class="leading-7 w-80 lg:w-64">{item?.description}</p>
           </div>
         ))}
       </div>
 
       <a
-        class={"btn btn-secondary hover:text-white text-lg w-96"}
+        class={"btn btn-secondary hover:text-white text-lg w-96 z-30"}
         href={href}
       >
         {label}

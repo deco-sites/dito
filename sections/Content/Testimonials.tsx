@@ -24,7 +24,7 @@ export interface Props {
 }
 
 const Testimonal = ({ image, text, user, href, label }: Testimonial) => (
-  <div class="flex flex-col items-center max-w-xs">
+  <div class="flex flex-col items-center max-w-md lg:max-w-xs">
     {image?.src && (
       <img src={image.src} alt={image?.alt} class="h-24 object-scale-down">
       </img>
@@ -32,22 +32,31 @@ const Testimonal = ({ image, text, user, href, label }: Testimonial) => (
     <h3 class="text-white leading-7 text-justify mb-10 min-h-[150px]">
       {text}
     </h3>
-    <div class="flex flex-col self-start mb-7 mt-auto">
-      {user?.name &&
-        (
-          <p class="font-bold text-white">
-            {user?.name}
-          </p>
-        )}
-      {user?.position &&
-        (
-          <p class="text-white">
-            {user?.position}
-          </p>
-        )}
+    <div class="flex flex-row lg:flex-col w-full justify-between self-start mb-7 mt-auto">
+      <div>
+        {user?.name &&
+          (
+            <p class="font-bold text-white">
+              {user?.name}
+            </p>
+          )}
+        {user?.position &&
+          (
+            <p class="text-white">
+              {user?.position}
+            </p>
+          )}
+      </div>
+
+      <a
+        class={"lg:hidden flex btn btn-secondary hover:text-white text-lg px-11 mt-auto"}
+        href={href}
+      >
+        {label}
+      </a>
     </div>
     <a
-      class={"btn btn-secondary hover:text-white text-lg px-11 mt-auto"}
+      class={"hidden lg:flex btn btn-secondary hover:text-white text-lg px-11 mt-auto"}
       href={href}
     >
       {label}
@@ -70,7 +79,7 @@ export default function Testimonials(
           <span class="text-main">.</span>
         </h2>
 
-        <div class="flex w-full justify-between">
+        <div class="flex w-full justify-between flex-col lg:flex-row items-center lg:items-start">
           {testimonials?.map(({ image, text, user, href, label }) => (
             <Testimonal
               image={image}

@@ -39,7 +39,7 @@ function Logos(props: Props) {
 
   return (
     <div class={`w-full px-6 pb-5 flex flex-col bg-[#${backgroundColor}]`}>
-      <div class="w-full container flex text-center justify-between">
+      <div class="w-full container flex text-center justify-around lg:justify-between flex-wrap">
         {list.map((element) => (
           <div class="inline-block align-middle">
             <div class="flex w-full h-full items-center justify-center">

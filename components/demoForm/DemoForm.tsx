@@ -43,14 +43,14 @@ function DemoForm(props: Props) {
 
   return (
     <div class="bg-[#eceef1]">
-      <div class="container flex justify-around py-10 px-6">
-        <div class="w-1/2 max-w-[395px] pl-2">
+      <div class="container flex justify-around py-10 px-6 flex-col lg:flex-row">
+        <div class="lg:w-1/2 lg:max-w-[395px] lg:pl-2 mb-10 lg:mb-0">
           <h1 class="text-[48px] leading-[3.6rem] font-bold mb-3">{title}</h1>
           <span class="block w-[34px] h-[5px] bg-main mb-10"></span>
           <p class="text-xl">{description}</p>
         </div>
 
-        <div class="w-1/2">
+        <div class="lg:w-1/2">
           <form class="flex flex-col text-sm font-medium" onSubmit={onSubmit}>
             <label class="mb-1" htmlFor="name">Seu nome *</label>
             <input

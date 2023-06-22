@@ -21,8 +21,8 @@ export interface Props {
 
 function BannerHome({ imgDesktop, imgMobile, action }: Props) {
   return (
-    <div class={"container flex items-center px-6"}>
-      <div class={"flex-auto flex-col w-2/5"}>
+    <div class={"container flex items-center px-6 flex-col lg:flex-row"}>
+      <div class={"flex lg:flex-auto flex-col lg:w-2/5"}>
         <h1 class={"text-title font-bold text-main"}>
           {action?.titleHighlight}
         </h1>
@@ -32,14 +32,14 @@ function BannerHome({ imgDesktop, imgMobile, action }: Props) {
         </h1>
         <h2 class={"text-xl leading-8 max-w-lg my-5"}>{action?.subTitle}</h2>
         <a
-          class={"btn btn-secondary hover:text-white text-lg px-14"}
+          class={"btn btn-secondary hover:text-white text-lg px-14 max-w-[390px] lg:max-w-none self-center lg:self-start"}
           href={action?.href}
         >
           {action?.label}
         </a>
       </div>
 
-      <div class={"flex-auto w-3/5"}>
+      <div class={"flex-auto w-full lg:w-3/5"}>
         <img
           class="object-cover w-full h-full"
           src={imgDesktop}
