@@ -44,7 +44,7 @@ function DemoForm(props: Props) {
   return (
     <div class="bg-[#eceef1]">
       <div class="container flex justify-around py-10 px-6">
-        <div class="w-1/2 max-w-[395px]">
+        <div class="w-1/2 max-w-[395px] pl-2">
           <h1 class="text-[48px] leading-[3.6rem] font-bold mb-3">{title}</h1>
           <span class="block w-[34px] h-[5px] bg-main mb-10"></span>
           <p class="text-xl">{description}</p>
