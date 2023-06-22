@@ -109,7 +109,7 @@ function Footer({ logo, sections = [], socialMedia = [] }: Props) {
 
       <div>
         <div class="container w-full">
-          <FooterContainer class="flex w-full justify-center items-center relative">
+          <FooterContainer class="flex flex-col lg:flex-row w-full justify-center items-center lg:relative">
             <ul class="flex items-center self-center gap-5">
               {socialMedia.map((social) => (
                 <li>
@@ -126,7 +126,7 @@ function Footer({ logo, sections = [], socialMedia = [] }: Props) {
                 </li>
               ))}
             </ul>
-            <span class="flex items-center gap-1 text-primary-content absolute right-0">
+            <span class="flex items-center gap-1 text-primary-content lg:absolute lg:right-0">
               Powered by{" "}
               <a
                 href="https://www.deco.cx"

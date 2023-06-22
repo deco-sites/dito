@@ -21,11 +21,14 @@ function RequestDemo(props: Props) {
 
   return (
     <div class="container flex justify-between flex-col items-center pb-16 px-6 relative">
-      <img class="absolute h-full max-w-[383px] bottom-16 z-0" src={background}>
+      <img
+        class="absolute h-full max-w-[390px] bottom-16 z-0 object-cover lg:object-contain opacity-50 lg:opacity-1"
+        src={background}
+      >
       </img>
-      <div class="flex flex-col w-full">
+      <div class="flex flex-col w-full z-10">
         {demonstration?.map((item) => (
-          <div class="flex w-full justify-between even:flex-row-reverse">
+          <div class="flex w-full justify-between flex-col lg:flex-row items-center lg:items-start lg:even:flex-row-reverse">
             <div class="max-w-[400px] flex flex-col self-center">
               <h2 class="text-[26px] font-bold mb-2">
                 {item.title}

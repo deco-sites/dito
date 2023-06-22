@@ -1,7 +1,7 @@
 import Modals from "$store/islands/HeaderModals.tsx";
 import type { Image as LiveImage } from "deco-sites/std/components/types.ts";
 import Navbar from "./Navbar.tsx";
-import { headerHeight } from "./constants.ts";
+import { headerHeight, headerMobileHeight } from "./constants.ts";
 
 export interface NavItem {
   label: string;
@@ -23,7 +23,9 @@ function Header({
 }: Props) {
   return (
     <>
-      <header style={{ height: headerHeight }} class="flex container ">
+      <header
+        class={`flex container h-[${headerMobileHeight}] sm:h-[${headerHeight}] mb-10 xl:mb-0`}
+      >
         <div class="bg-base-100 flex w-full z-50">
           <Navbar items={navItems} logo={image} />
         </div>
