@@ -45,7 +45,6 @@ export interface Props {
 }
 
 function Footer({ logo, sections = [], socialMedia = [] }: Props) {
-  console.log(socialMedia);
   return (
     <footer class="w-full bg-[#19223c] flex flex-col">
       <div>
