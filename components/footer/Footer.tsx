@@ -21,7 +21,7 @@ export type Social = {
 
 function SectionItem({ item }: { item: Item }) {
   return (
-    <span class="text-primary-content text-xs">
+    <span class="text-primary-content text-xs hover:text-main">
       <a href={item.href}>
         {item.label}
       </a>
@@ -113,7 +113,7 @@ function Footer({ logo, sections = [], socialMedia = [] }: Props) {
               {socialMedia.map((social) => (
                 <li>
                   <a
-                    class="block border-2 border-solid rounded-full"
+                    class="block border-2 border-solid rounded-full transition hover:bg-main hover:border-main"
                     href={social.href}
                     target="_blank"
                     rel="noopener noreferrer"

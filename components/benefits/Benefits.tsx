@@ -19,7 +19,7 @@ function Benefits(props: Props) {
         {benefits?.map((item) => (
           <div class="flex flex-col lg:flex-row items-center lg:items-start">
             <div class="flex-none mr-5 ">
-              <img class="w-20" src={item?.icon}>
+              <img width="auto" height="auto" class="w-20" src={item?.icon}>
               </img>
             </div>
             <div class="lg:max-w-[240px]">
