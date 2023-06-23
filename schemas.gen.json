@@ -63,6 +63,7 @@
               "./islands/AddToCartButton.tsx",
               "./islands/Form.tsx",
               "./islands/HeaderButton.tsx",
+              "./islands/HeaderModal.tsx",
               "./islands/HeaderModals.tsx",
               "./islands/Newsletter.tsx",
               "./islands/OutOfStock.tsx",
@@ -82,6 +83,7 @@
               "$live/sections/PageInclude.tsx",
               "$live/sections/Slot.tsx",
               "$live/sections/UseSlot.tsx",
+              "deco-sites/dito/sections/AppModal/AppModal.tsx",
               "deco-sites/dito/sections/Category/CategoryBanner.tsx",
               "deco-sites/dito/sections/Category/CategoryList.tsx",
               "deco-sites/dito/sections/Content/Benefits.tsx",
@@ -7206,6 +7208,63 @@
       "format": "image-uri",
       "title": "Image"
     },
+    "ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvYXBwTW9kYWwvQXBwTW9kYWwudHN4@Props": {
+      "type": "object",
+      "properties": {
+        "background": {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tcG9uZW50cy90eXBlcy50cw==@Image",
+          "title": "Background"
+        },
+        "title": {
+          "type": "object",
+          "properties": {
+            "text": {
+              "type": "string",
+              "title": "Text"
+            },
+            "highlight": {
+              "type": "string",
+              "title": "Highlight"
+            },
+            "text2": {
+              "type": "string",
+              "title": "Text2"
+            }
+          },
+          "required": [
+            "text",
+            "highlight",
+            "text2"
+          ],
+          "title": "Title"
+        },
+        "subTitle": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "title": "Sub Title"
+        },
+        "label": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "title": "Label"
+        },
+        "href": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "title": "Href"
+        }
+      },
+      "required": [
+        "title"
+      ],
+      "title": "deco-sites/dito/components/appModal/AppModal.tsx@Props"
+    },
     "ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvdWkvQmFubmVyUExQLnRzeA==@Banner": {
       "type": "object",
       "properties": {
@@ -11977,6 +12036,22 @@
         }
       }
     },
+    "Li9pc2xhbmRzL0hlYWRlck1vZGFsLnRzeA==": {
+      "title": "./islands/HeaderModal.tsx",
+      "type": "object",
+      "required": [
+        "__resolveType"
+      ],
+      "properties": {
+        "__resolveType": {
+          "type": "string",
+          "enum": [
+            "./islands/HeaderModal.tsx"
+          ],
+          "default": "./islands/HeaderModal.tsx"
+        }
+      }
+    },
     "Li9pc2xhbmRzL0hlYWRlck1vZGFscy50c3g=": {
       "title": "./islands/HeaderModals.tsx",
       "type": "object",
@@ -12342,6 +12417,27 @@
             "$live/sections/UseSlot.tsx"
           ],
           "default": "$live/sections/UseSlot.tsx"
+        }
+      }
+    },
+    "ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0FwcE1vZGFsL0FwcE1vZGFsLnRzeA==": {
+      "title": "deco-sites/dito/sections/AppModal/AppModal.tsx",
+      "type": "object",
+      "allOf": [
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL2NvbXBvbmVudHMvYXBwTW9kYWwvQXBwTW9kYWwudHN4@Props"
+        }
+      ],
+      "required": [
+        "__resolveType"
+      ],
+      "properties": {
+        "__resolveType": {
+          "type": "string",
+          "enum": [
+            "deco-sites/dito/sections/AppModal/AppModal.tsx"
+          ],
+          "default": "deco-sites/dito/sections/AppModal/AppModal.tsx"
         }
       }
     },
@@ -13987,6 +14083,9 @@
           "$ref": "#/definitions/Li9pc2xhbmRzL0hlYWRlckJ1dHRvbi50c3g="
         },
         {
+          "$ref": "#/definitions/Li9pc2xhbmRzL0hlYWRlck1vZGFsLnRzeA=="
+        },
+        {
           "$ref": "#/definitions/Li9pc2xhbmRzL0hlYWRlck1vZGFscy50c3g="
         },
         {
@@ -14066,6 +14165,9 @@
         },
         {
           "$ref": "#/definitions/JGxpdmUvc2VjdGlvbnMvVXNlU2xvdC50c3g="
+        },
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0FwcE1vZGFsL0FwcE1vZGFsLnRzeA=="
         },
         {
           "$ref": "#/definitions/ZGVjby1zaXRlcy9kaXRvL3NlY3Rpb25zL0NhdGVnb3J5L0NhdGVnb3J5QmFubmVyLnRzeA=="
