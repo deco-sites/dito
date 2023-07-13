@@ -18,7 +18,7 @@ function AppModal(props: Props) {
   console.log(props);
 
   return (
-    <div>
+    <>
       <Modal
         background={background}
         text={title.text}
@@ -28,7 +28,7 @@ function AppModal(props: Props) {
         label={label}
         href={href}
       />
-    </div>
+    </>
   );
 }
 
